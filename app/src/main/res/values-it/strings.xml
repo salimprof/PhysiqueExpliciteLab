@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Phyphox</string>
+    <string name="app_name">Physique Explicite Lab</string>
     <string name="switchColumns1">Vista: 1 colonna</string>
     <string name="switchColumns3">Vista: 3 colonne</string>
     <string name="switchColumns2">Vista: 2 colonne</string>

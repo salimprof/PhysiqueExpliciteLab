@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ফিফক্স</string>
+    <string name="app_name">Physique Explicite Lab</string>
     <string name="privacyPolicyURL">https://phyphox.org/privacy</string>
     <string name="action_settings">সেটিংস</string>
     <string name="title_activity_experiment">ফিফক্স</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">phyphox - مختبر الفيزياء على الهاتف</string>
+    <string name="app_name">Physique Explicite Lab</string>
     <string name="action_settings">الإعدادات</string>
     <string name="title_activity_experiment">phyphox</string>
     <string name="graph_tools_pan_and_zoom">التحريك و التكبير</string>

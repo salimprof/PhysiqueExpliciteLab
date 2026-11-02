@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">phyphox</string>
+    <string name="app_name">Physique Explicite Lab</string>
     <string name="switchColumns1">Zobrazit: 1 sloupec</string>
     <string name="switchColumns3">Zobrazit: 3 sloupce</string>
     <string name="switchColumns2">Zobrazit: 2 sloupce</string>

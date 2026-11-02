@@ -3,12 +3,12 @@ apply plugin: 'com.android.application'
 android {
 
     defaultConfig {
-        applicationId "de.rwth_aachen.phyphox"
+        applicationId "com.salimprof.physiqueexplicitelab"
         minSdkVersion 21
         targetSdkVersion 37
         compileSdk 37
 
-        versionName "1.2.1"
+        versionName "1.0.0-pe (base phyphox 1.2.1)"
         //  format  WXXYYZZ, where WW is major, XX is minor, YY is patch, and ZZ is build
         versionCode 1020105 //1.02.01-05
 

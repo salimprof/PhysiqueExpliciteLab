@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="action_settings">設定</string>
-    <string name="app_name">手機物理實作</string>
+    <string name="app_name">Physique Explicite Lab</string>
     <string name="title_activity_experiment">手機物理實作</string>
     <string name="newExperiment">新建實驗</string>
     <string name="newExperimentPhyphoxInfo">參考phyphox.org網站資訊，創建更好的手機物理實作實驗，包括數據分析，可與同事，學生和朋友分享。</string>

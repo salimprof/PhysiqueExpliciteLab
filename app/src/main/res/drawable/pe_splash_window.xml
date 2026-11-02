@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Window background shown while the app really loads (pre-Android 12). -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/pe_night" />
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/pe_splash_content" />
+    </item>
+</layer-list>

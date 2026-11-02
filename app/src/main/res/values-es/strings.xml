@@ -35,7 +35,7 @@
     <string name="sensorPressure">Presión</string>
     <string name="sensorTemperature">Temperatura</string>
     <string name="sensorHumidity">Humedad</string>
-    <string name="app_name">phyphox</string>
+    <string name="app_name">Physique Explicite Lab</string>
     <string name="title_activity_experiment">phyphox</string>
     <string name="sensorProximity">Proximidad</string>
     <string name="location">Posición</string>
