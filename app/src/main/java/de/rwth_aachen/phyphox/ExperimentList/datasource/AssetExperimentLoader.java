@@ -312,7 +312,13 @@ public class AssetExperimentLoader {
                                 String src = xpp.getAttributeValue(null, "src");
                                 shortInfo.resources.add(src);
                                 break;
+                            case "audio": //Physique Explicite Lab: remember that the microphone is an input
+                                if (inInput)
+                                    shortInfo.sensorTypes.add("audio");
+                                break;
                             case "sensor":
+                                if (inInput) //Physique Explicite Lab: remember the sensor type
+                                    shortInfo.sensorTypes.add(String.valueOf(xpp.getAttributeValue(null, "type")).toLowerCase(java.util.Locale.ROOT));
                                 if (!inInput || shortInfo.unavailableSensor >= 0)
                                     break;
                                 String type = xpp.getAttributeValue(null, "type");
@@ -339,6 +345,8 @@ public class AssetExperimentLoader {
                                 }
                                 break;
                             case "location":
+                                if (inInput) //Physique Explicite Lab
+                                    shortInfo.sensorTypes.add("location");
                                 if (!inInput || shortInfo.unavailableSensor >= 0)
                                     break;
                                 if (!GpsInput.isAvailable(environment.context)) {
@@ -353,6 +361,8 @@ public class AssetExperimentLoader {
                                 }
                                 break;
                             case "camera":
+                                if (inInput) //Physique Explicite Lab
+                                    shortInfo.sensorTypes.add("camera");
                                 PackageManager pm = environment.context.getPackageManager();
                                 if (!inInput || shortInfo.unavailableSensor >= 0)
                                     break;

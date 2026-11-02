@@ -15,8 +15,11 @@
     <item android:id="@+id/action_clear" android:title="@string/clear_data" android:icon="@drawable/delete"
         android:orderInCategory="20" app:showAsAction="always" />
 
+    <item android:id="@+id/action_favorite" android:title="@string/pe_fav_add" android:icon="@drawable/ic_pe_star_outline"
+        android:orderInCategory="25" app:showAsAction="ifRoom" />
+
     <item android:id="@+id/action_description" android:title="@string/show_description" android:icon="@drawable/info"
-        android:orderInCategory="30" app:showAsAction="never" />
+        android:orderInCategory="30" app:showAsAction="ifRoom" />
     <item android:id="@+id/action_link1" android:title="@string/show_description" android:orderInCategory="31" app:showAsAction="never" />
     <item android:id="@+id/action_link2" android:title="@string/show_description" android:orderInCategory="32" app:showAsAction="never" />
     <item android:id="@+id/action_link3" android:title="@string/show_description" android:orderInCategory="33" app:showAsAction="never" />

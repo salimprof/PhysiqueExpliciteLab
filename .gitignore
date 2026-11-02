@@ -6,3 +6,6 @@ build/
 *.iml
 /*/.externalNativeBuild/
 /*/.cxx
+
+dist/
+

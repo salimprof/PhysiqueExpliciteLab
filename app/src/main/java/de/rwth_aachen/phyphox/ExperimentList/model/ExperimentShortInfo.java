@@ -28,5 +28,8 @@ public class ExperimentShortInfo {
     public boolean selected = false;
 
     public final Set<String> bluetoothDeviceNames = new HashSet<>();
+    //Physique Explicite Lab: sensor/input types used by the experiment (lower case sensor type
+    //names plus "audio", "location", "camera"). Used to sort experiments into learning categories.
+    public final Set<String> sensorTypes = new HashSet<>();
     public final Set<UUID> bluetoothDeviceUUIDs = new HashSet<>();
 }

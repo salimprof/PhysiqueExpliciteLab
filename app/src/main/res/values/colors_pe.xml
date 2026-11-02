@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Physique Explicite Lab brand palette -->
+<!-- Physique Explicite Lab brand palette and semantic colours (light mode) -->
 <resources>
+    <!-- Brand palette -->
     <color name="pe_blue">#173A63</color>
     <color name="pe_night">#102A43</color>
     <color name="pe_teal">#16A6A2</color>
@@ -9,4 +10,17 @@
     <color name="pe_white">#FFFFFF</color>
     <color name="pe_surface">#F7F9FC</color>
     <color name="pe_text">#203040</color>
+
+    <!-- Semantic colours (overridden in values-night) -->
+    <color name="pe_bg">#F7F9FC</color>
+    <color name="pe_card">#FFFFFF</color>
+    <color name="pe_card_stroke">#DCE4EE</color>
+    <color name="pe_on_bg">#203040</color>
+    <color name="pe_on_bg_variant">#4A5B6C</color>
+    <color name="pe_primary">#173A63</color>
+    <color name="pe_on_primary">#FFFFFF</color>
+    <color name="pe_accent">#0E7F7B</color>
+    <color name="pe_header">#173A63</color>
+    <color name="pe_on_header">#FFFFFF</color>
+    <color name="pe_nav_indicator">#CDEBEA</color>
 </resources>

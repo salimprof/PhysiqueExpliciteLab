@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pe_nav_home"
+        android:icon="@drawable/ic_pe_nav_home"
+        android:title="@string/pe_nav_home" />
+    <item
+        android:id="@+id/pe_nav_experiments"
+        android:icon="@drawable/ic_pe_nav_experiments"
+        android:title="@string/pe_nav_experiments" />
+    <item
+        android:id="@+id/pe_nav_lab"
+        android:icon="@drawable/ic_pe_nav_lab"
+        android:title="@string/pe_nav_lab" />
+    <item
+        android:id="@+id/pe_nav_data"
+        android:icon="@drawable/ic_pe_nav_data"
+        android:title="@string/pe_nav_data" />
+    <item
+        android:id="@+id/pe_nav_settings"
+        android:icon="@drawable/ic_pe_nav_settings"
+        android:title="@string/pe_nav_settings" />
+</menu>

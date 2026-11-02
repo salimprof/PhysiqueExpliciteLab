@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pe_subtitle">Mobile science laboratory</string>
+    <string name="pe_tagline">Turn your smartphone into a science laboratory.</string>
+    <string name="pe_logo_description">Physique Explicite Lab logo: a stylised atom</string>
+
+    <string name="pe_nav_home">Home</string>
+    <string name="pe_nav_experiments">Experiments</string>
+    <string name="pe_nav_lab">Let\'s experiment</string>
+    <string name="pe_nav_data">Data</string>
+    <string name="pe_nav_settings">Settings</string>
+    <string name="pe_open_settings">Open settings</string>
+    <string name="pe_open_about_salimprof">Open the Edited by Salimprof window</string>
+
+    <string name="pe_search_hint">Search for an experiment</string>
+
+    <string name="pe_cat_motion_title">Motion and acceleration</string>
+    <string name="pe_cat_motion_desc">Accelerometer: measure and analyse a movement.</string>
+    <string name="pe_cat_rotation_title">Rotation and orientation</string>
+    <string name="pe_cat_rotation_desc">Gyroscope and device orientation.</string>
+    <string name="pe_cat_acoustics_title">Acoustics and sounds</string>
+    <string name="pe_cat_acoustics_desc">Microphone: signal, frequency and spectrum.</string>
+    <string name="pe_cat_magnetism_title">Magnetism</string>
+    <string name="pe_cat_magnetism_desc">Magnetic field, in µT, around a magnet.</string>
+    <string name="pe_cat_light_title">Light</string>
+    <string name="pe_cat_light_desc">Illuminance, in lux.</string>
+    <string name="pe_cat_pressure_title">Atmospheric pressure</string>
+    <string name="pe_cat_pressure_desc">Barometer: pressure over time.</string>
+    <string name="pe_cat_location_title">Location and movement</string>
+    <string name="pe_cat_location_desc">GPS: position, speed and time.</string>
+    <string name="pe_cat_custom_title">Custom experiments</string>
+    <string name="pe_cat_custom_desc">Your imported or created experiments.</string>
+    <string name="pe_cat_favorites_title">My favourite experiments</string>
+    <string name="pe_cat_favorites_desc">Quick access to your preferred experiments.</string>
+    <string name="pe_cat_pedagogy_title">Educational activities</string>
+    <string name="pe_cat_pedagogy_desc">Let\'s experiment: guided activities for middle school.</string>
+
+    <string name="pe_exp_title">Experiments</string>
+    <string name="pe_exp_all">All</string>
+    <string name="pe_exp_count">%1$d experiment(s)</string>
+    <string name="pe_exp_empty">No experiment matches your search.</string>
+    <string name="pe_exp_empty_favorites">No favourites yet. Tap the star of an experiment to add it.</string>
+    <string name="pe_exp_empty_custom">No custom experiments. Import one or create one with the button below.</string>
+    <string name="pe_exp_add">Add or import experiments</string>
+    <string name="pe_fav_add">Add to favourites</string>
+    <string name="pe_fav_remove">Remove from favourites</string>
+    <string name="pe_sensor_missing">Sensor not available on this device: %1$s</string>
+    <string name="pe_saved_badge">Saved measurement</string>
+
+    <string name="pe_lab_title">Let\'s experiment</string>
+    <string name="pe_lab_intro">Guided 9-step educational activities for middle school (1AC, 2AC, 3AC), using your smartphone\'s real sensors.</string>
+    <string name="pe_lab_levels_badge">Middle school: 1AC • 2AC • 3AC</string>
+    <string name="pe_lab_start_activity">Start activity</string>
+    <string name="pe_lab_open_sensor">Launch real measurement</string>
+    <string name="pe_lab_safety_title">Safety warning</string>
+
+    <string name="pe_step_1">1. I discover</string>
+    <string name="pe_step_2">2. My objective</string>
+    <string name="pe_step_3">3. I prepare</string>
+    <string name="pe_step_4">4. I perform</string>
+    <string name="pe_step_5">5. I observe</string>
+    <string name="pe_step_6">6. I describe</string>
+    <string name="pe_step_7">7. I explain</string>
+    <string name="pe_step_8">8. I conclude</string>
+    <string name="pe_step_9">9. Check my understanding (Quiz)</string>
+
+    <string name="pe_quiz_validate">Check my answers</string>
+    <string name="pe_quiz_retry">Try again</string>
+    <string name="pe_quiz_score">Final score: %1$d / %2$d</string>
+    <string name="pe_quiz_correct">✓ Correct answer!</string>
+    <string name="pe_quiz_wrong">✗ Incorrect answer.</string>
+    <string name="pe_quiz_select_all">Please select an answer for every question.</string>
+
+    <string name="pe_act1_title">Activity 1: Measure the acceleration of a smartphone</string>
+    <string name="pe_act1_meta">Sensor: Accelerometer (m/s²) • Levels: 2AC / 3AC (Motion and forces)</string>
+    <string name="pe_act1_safety">Hold the smartphone firmly or place it flat on a table. Never throw or drop it.</string>
+    <string name="pe_act1_s1">In a starting car or lift, we feel a push as speed changes over time. How can we measure this change in motion scientifically with a smartphone?</string>
+    <string name="pe_act1_s2">Measure the acceleration components (X, Y, Z) in m/s² and distinguish rest from accelerated motion.</string>
+    <string name="pe_act1_s3">Equipment: Smartphone flat on a horizontal table. Prerequisites: Speed, motion and Earth\'s gravity (g ≈ 9.8 m/s²).</string>
+    <string name="pe_act1_s4">1. Place the smartphone flat on the table (screen up).\n2. Tap “Launch real measurement” below and start recording.\n3. Observe values for 5 s at rest, then gently slide the phone to the right (X axis) and stop it.</string>
+    <string name="pe_act1_s5">At rest: ax ≈ 0 m/s², ay ≈ 0 m/s², az ≈ 9.8 m/s².\nDuring horizontal motion: positive then negative peak on ax(t).</string>
+    <string name="pe_act1_s6">At rest, the curve is constant. During movement, acceleration along X increases then changes sign when braking.</string>
+    <string name="pe_act1_s7">The accelerometer measures rate of change of velocity (in m/s²) as well as the vertical gravity component when g is included.</string>
+    <string name="pe_act1_s8">Acceleration characterises any change in velocity and is expressed in m/s² in the International System.</string>
+    <string name="pe_act1_q1">What is the SI unit of acceleration?</string>
+    <string name="pe_act1_q1_a">m/s²</string>
+    <string name="pe_act1_q1_b">km/h</string>
+    <string name="pe_act1_q1_c">N/kg·s</string>
+    <string name="pe_act1_q1_exp">Acceleration is a change in speed (m/s) per second (s), i.e. metres per second squared (m/s²).</string>
+    <string name="pe_act1_q2">When the smartphone rests flat on a table, what is the approximate acceleration with g along the vertical Z axis?</string>
+    <string name="pe_act1_q2_a">About 9.8 m/s²</string>
+    <string name="pe_act1_q2_b">Exactly 100 m/s²</string>
+    <string name="pe_act1_q2_c">Always -50 m/s²</string>
+    <string name="pe_act1_q2_exp">The accelerometer with g measures the upward support reaction balancing Earth\'s gravity g ≈ 9.8 m/s².</string>
+
+    <string name="pe_act2_title">Activity 2: Observe the magnetic field near a magnet</string>
+    <string name="pe_act2_meta">Sensor: Magnetometer (µT) • Levels: 1AC / 2AC / 3AC (Magnetism)</string>
+    <string name="pe_act2_safety">Keep strong magnets at least 5 cm away from the smartphone and never place them directly on the screen.</string>
+    <string name="pe_act2_s1">A compass aligns with Earth\'s magnetic field but deflects strongly near a magnet. How does magnetic field intensity vary with distance?</string>
+    <string name="pe_act2_s2">Measure magnetic field intensity B (in microteslas, µT) and observe how it changes as a small magnet is brought closer and moved away.</string>
+    <string name="pe_act2_s3">Equipment: Smartphone, small school magnet, plastic or wooden ruler.</string>
+    <string name="pe_act2_s4">1. Remove nearby metallic or magnetic objects.\n2. Launch the magnetometer experiment and note Earth\'s magnetic field (about 40–50 µT).\n3. Slowly bring the magnet from 30 cm to 8 cm and observe the graph.</string>
+    <string name="pe_act2_s5">Far from magnet: B ≈ 45 µT.\nAt 15 cm: B increases noticeably.\nAt 8 cm: B reaches several hundred µT.</string>
+    <string name="pe_act2_s6">As the distance between the magnet and the smartphone decreases, the magnetic field B (in µT) increases sharply.</string>
+    <string name="pe_act2_s7">A magnet creates a magnetic field around it whose intensity decreases rapidly with distance from its poles.</string>
+    <string name="pe_act2_s8">Magnetic field is measured in teslas (T) or microteslas (µT, 1 µT = 10⁻⁶ T). Its intensity increases near a magnet.</string>
+    <string name="pe_act2_q1">Which unit is commonly used by the smartphone magnetometer to express magnetic field?</string>
+    <string name="pe_act2_q1_a">Microtesla (µT)</string>
+    <string name="pe_act2_q1_b">Hertz (Hz)</string>
+    <string name="pe_act2_q1_c">Lux (lx)</string>
+    <string name="pe_act2_q1_exp">Magnetic field is expressed in teslas (T) or microteslas (µT) for weak fields.</string>
+    <string name="pe_act2_q2">What happens to the measured magnetic field when the magnet is moved away from the sensor?</string>
+    <string name="pe_act2_q2_a">It decreases gradually towards Earth\'s magnetic field value</string>
+    <string name="pe_act2_q2_b">It stays infinite regardless of distance</string>
+    <string name="pe_act2_q2_c">It turns into a temperature in °C</string>
+    <string name="pe_act2_q2_exp">A magnet\'s magnetic influence decreases rapidly with distance until only Earth\'s field remains.</string>
+
+    <string name="pe_act3_title">Activity 3: Measure the frequency of a sound</string>
+    <string name="pe_act3_meta">Sensor: Microphone (Hz) • Levels: 2AC (Acoustics and sound waves)</string>
+    <string name="pe_act3_safety">Use a moderate sound volume. Never produce loud sounds close to your ears or directly against the microphone.</string>
+    <string name="pe_act3_s1">A guitar string or tuning fork produces a low or high pitch. Which physical quantity distinguishes a low sound from a high-pitched sound?</string>
+    <string name="pe_act3_s2">Measure the fundamental frequency f (in hertz, Hz) of a periodic sound using the microphone and relate pitch to frequency.</string>
+    <string name="pe_act3_s3">Equipment: Smartphone (microphone permission granted), tuning fork (e.g. A 440 Hz), recorder or whistle.</string>
+    <string name="pe_act3_s4">1. Launch the sound frequency measurement (Audio Autocorrelation).\n2. Strike the tuning fork or whistle a steady note 20 cm from the microphone.\n3. Read the frequency in Hz and period in ms, then repeat with a higher pitch.</string>
+    <string name="pe_act3_s5">Tuning fork: f ≈ 440 Hz.\nHigher whistle: frequency exceeds 800 Hz and period decreases.</string>
+    <string name="pe_act3_s6">A steady note shows a regular periodic waveform. The higher the pitch, the greater the frequency in Hz.</string>
+    <string name="pe_act3_s7">Frequency f is the number of vibrations per second (f = 1 / T) and determines the perceived pitch of the sound.</string>
+    <string name="pe_act3_s8">Sound frequency is expressed in hertz (Hz). A high-pitched sound has a higher frequency than a low-pitched sound.</string>
+    <string name="pe_act3_q1">In which unit is the frequency of a sound expressed?</string>
+    <string name="pe_act3_q1_a">Hertz (Hz)</string>
+    <string name="pe_act3_q1_b">Pascal (Pa)</string>
+    <string name="pe_act3_q1_c">Metre per second (m/s)</string>
+    <string name="pe_act3_q1_exp">Frequency is the number of cycles per second and is expressed in hertz (Hz).</string>
+    <string name="pe_act3_q2">Between two sounds of 250 Hz and 800 Hz, which one has the higher pitch?</string>
+    <string name="pe_act3_q2_a">The 800 Hz sound</string>
+    <string name="pe_act3_q2_b">The 250 Hz sound</string>
+    <string name="pe_act3_q2_c">They have the same pitch</string>
+    <string name="pe_act3_q2_exp">The higher the frequency of a sound, the higher its pitch.</string>
+
+    <string name="pe_data_title">Data</string>
+    <string name="pe_data_intro">Your saved measurements and personal experiments. They stay on your device.</string>
+    <string name="pe_data_saved">Saved measurements</string>
+    <string name="pe_data_custom">Custom experiments</string>
+    <string name="pe_data_empty">No saved data yet. From an experiment, save its state to find it here.</string>
+
+    <string name="pe_set_title">Settings</string>
+    <string name="pe_set_appearance">Appearance</string>
+    <string name="pe_set_theme_system">System mode</string>
+    <string name="pe_set_theme_light">Light mode</string>
+    <string name="pe_set_theme_dark">Dark mode</string>
+    <string name="pe_set_language">Language</string>
+    <string name="pe_set_lang_system">System language</string>
+    <string name="pe_set_experiments">Experiments</string>
+    <string name="pe_set_engine">Measurement and display preferences</string>
+    <string name="pe_set_engine_desc">Advanced settings of the measurement engine (graphs, export, etc.).</string>
+    <string name="pe_set_data">Data management</string>
+    <string name="pe_set_data_desc">View my measurements and personal experiments.</string>
+    <string name="pe_set_info">Information</string>
+    <string name="pe_set_version">Version</string>
+    <string name="pe_set_about">About the app</string>
+    <string name="pe_set_licenses">Open source licences</string>
+    <string name="pe_set_privacy">Privacy</string>
+
+    <string name="pe_dlg_role">Physics and chemistry teacher and educational technology trainer.</string>
+    <string name="pe_dlg_message">“An innovative approach to learning physics through experimentation.”</string>
+    <string name="pe_dlg_scope">Customisation of the interface and educational modules. The scientific engine is the one of the open source project phyphox, created at RWTH Aachen University and developed by its contributors.</string>
+    <string name="pe_dlg_credits">Credits and licences</string>
+    <string name="pe_close">Close</string>
+
+    <string name="pe_about_title">About the app</string>
+    <string name="pe_about_description">Scientific and educational app that turns an Android smartphone into an experimental physics laboratory. It is intended for middle school physics and chemistry students and teachers.</string>
+    <string name="pe_about_customization_title">Customisation</string>
+    <string name="pe_about_customization">Physique Explicite Lab is a customised version of phyphox made by Salimprof (Salim El Mokhtar): new interface, visual identity, the educational module “Let\'s experiment” and quizzes. It is not an official product of RWTH Aachen University or of the phyphox team.</string>
+    <string name="pe_about_original_title">Credits of the original authors</string>
+    <string name="pe_about_original">The measurement engine, experiments and analysis tools come from phyphox, created at the 2nd Institute of Physics of RWTH Aachen University by Sebastian Staacks and colleagues, with many contributors. The original copyright notices are preserved. Bundled translations and experiments belong to their respective authors.</string>
+    <string name="pe_about_license_title">Licence</string>
+    <string name="pe_about_license">This software is derived from phyphox and is distributed under the GNU General Public License version 3 (GPL v3), without any warranty. You may study, modify and redistribute it under the terms of that licence. Third-party components (jlhttp, FFTW, Chart.js, ZXing, AndroidSVG, AndroidX and Material libraries) are subject to their own licences, described in the engine credits.</string>
+    <string name="pe_about_source_title">Corresponding source code</string>
+    <string name="pe_about_source_original">Original project: https://github.com/phyphox/phyphox-android</string>
+    <string name="pe_about_source_ours">The complete source code of this customised version is provided on request by the publisher, in accordance with the GPL v3.</string>
+    <string name="pe_about_source_ours_url">Source code of this version: %1$s</string>
+    <string name="pe_about_open_repo">Open the phyphox-android repository</string>
+    <string name="pe_about_engine_credits">Detailed engine credits (phyphox)</string>
+    <string name="pe_about_full_license">Full text of the GPL v3 licence</string>
+    <string name="pe_licenses_title">Open source licences</string>
+    <string name="pe_licenses_intro">Text of the GNU GPL v3 licence under which this software is distributed:</string>
+    <string name="pe_privacy_title">Privacy</string>
+    <string name="pe_privacy_text">Physique Explicite Lab works offline for local experiments.\n\n• Sensor measurements are processed on your device. The app has no user account, contains no advertising or analytics tool, and sends no data to the publisher or to third parties.\n\n• The microphone is only used during a sound measurement. The camera is only used for camera experiments. Location (GPS) is only used for position and speed experiments. Bluetooth is only used to connect to external sensors that you choose. These permissions are requested when they are needed.\n\n• Saved measurements, favourites and preferences are stored in the private space of the app. Automatic Android backup is disabled to protect this data.\n\n• Network exchanges only happen if you trigger them: remote access to an experiment from a computer on the same network, network experiments, importing an experiment by address or QR code, opening an external link. Remote access is not encrypted: use it only on a trusted network.\n\n• Data export and sharing only happen at your request, through the Android share menu.\n\nYou can delete your data at any time by uninstalling the app or clearing its storage in the Android settings.</string>
+
+    <string name="pe_back">Back</string>
+    <string name="pe_loading_failed">Loading failed: %1$s</string>
+</resources>

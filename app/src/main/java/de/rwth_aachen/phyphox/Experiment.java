@@ -1207,6 +1207,14 @@ public class Experiment extends AppCompatActivity implements View.OnClickListene
         MenuItem saveLocally = menu.findItem(R.id.action_saveLocally);
         MenuItem calibratedMagnetometer = menu.findItem(R.id.action_calibrated_magnetometer);
         MenuItem forceGNSSItem = menu.findItem(R.id.action_force_gnss);
+        MenuItem favItem = menu.findItem(R.id.action_favorite);
+        if (favItem != null && intent != null) {
+            String xmlFile = intent.getStringExtra(de.rwth_aachen.phyphox.ExperimentList.model.Const.EXPERIMENT_XML);
+            boolean isFav = de.rwth_aachen.phyphox.pelab.PEFavoritesManager.isFavorite(this, xmlFile);
+            favItem.setVisible(xmlFile != null);
+            favItem.setIcon(isFav ? R.drawable.ic_pe_cat_favorites : R.drawable.ic_pe_star_outline);
+            favItem.setTitle(isFav ? R.string.pe_fav_remove : R.string.pe_fav_add);
+        }
 
         Iterator<PhyphoxExperiment.Link> it = experiment.getHighlightedLinks().iterator();
         for (int i = 1; i <= 5; i++) {
@@ -1552,6 +1560,15 @@ public class Experiment extends AppCompatActivity implements View.OnClickListene
             return true;
         }
 
+        if (id == R.id.action_favorite && intent != null) {
+            String xmlFile = intent.getStringExtra(de.rwth_aachen.phyphox.ExperimentList.model.Const.EXPERIMENT_XML);
+            if (xmlFile != null) {
+                boolean isFav = de.rwth_aachen.phyphox.pelab.PEFavoritesManager.toggleFavorite(this, xmlFile);
+                invalidateOptionsMenu();
+                Toast.makeText(this, isFav ? R.string.pe_fav_add : R.string.pe_fav_remove, Toast.LENGTH_SHORT).show();
+            }
+            return true;
+        }
         //Desciption-button. Show the experiment description
         if (id == R.id.action_description) {
             showExperimentInfo();

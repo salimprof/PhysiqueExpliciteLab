@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pe_bg">#0B1B2B</color>
+    <color name="pe_card">#142A40</color>
+    <color name="pe_card_stroke">#27425C</color>
+    <color name="pe_on_bg">#E8EEF4</color>
+    <color name="pe_on_bg_variant">#AFC0D0</color>
+    <color name="pe_primary">#5CD6D2</color>
+    <color name="pe_on_primary">#06222A</color>
+    <color name="pe_accent">#5CD6D2</color>
+    <color name="pe_header">#102A43</color>
+    <color name="pe_on_header">#FFFFFF</color>
+    <color name="pe_nav_indicator">#21506B</color>
+</resources>

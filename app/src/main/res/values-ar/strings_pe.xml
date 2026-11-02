@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pe_subtitle">مختبر علمي متنقل</string>
+    <string name="pe_tagline">حوّل هاتفك الذكي إلى مختبر علمي.</string>
+    <string name="pe_logo_description">شعار فيزيك إكسبليسيت لاب: ذرة مبسّطة</string>
+
+    <string name="pe_nav_home">الرئيسية</string>
+    <string name="pe_nav_experiments">التجارب</string>
+    <string name="pe_nav_lab">أجرّب</string>
+    <string name="pe_nav_data">البيانات</string>
+    <string name="pe_nav_settings">الإعدادات</string>
+    <string name="pe_open_settings">فتح الإعدادات</string>
+    <string name="pe_open_about_salimprof">فتح نافذة Edited by Salimprof</string>
+
+    <string name="pe_search_hint">ابحث عن تجربة</string>
+
+    <string name="pe_cat_motion_title">الحركة والتسارع</string>
+    <string name="pe_cat_motion_desc">مقياس التسارع: قياس حركة وتحليلها.</string>
+    <string name="pe_cat_rotation_title">الدوران والاتجاه</string>
+    <string name="pe_cat_rotation_desc">الجيروسكوب واتجاه الجهاز.</string>
+    <string name="pe_cat_acoustics_title">الصوتيات والأصوات</string>
+    <string name="pe_cat_acoustics_desc">الميكروفون: الإشارة والتردد والطيف.</string>
+    <string name="pe_cat_magnetism_title">المغنطيسية</string>
+    <string name="pe_cat_magnetism_desc">المجال المغنطيسي بوحدة µT حول مغناطيس.</string>
+    <string name="pe_cat_light_title">الضوء</string>
+    <string name="pe_cat_light_desc">الإضاءة بوحدة اللوكس.</string>
+    <string name="pe_cat_pressure_title">الضغط الجوي</string>
+    <string name="pe_cat_pressure_desc">مقياس الضغط: تطور الضغط مع الزمن.</string>
+    <string name="pe_cat_location_title">تحديد الموقع والحركة</string>
+    <string name="pe_cat_location_desc">نظام GPS: الموقع والسرعة والزمن.</string>
+    <string name="pe_cat_custom_title">تجارب مخصصة</string>
+    <string name="pe_cat_custom_desc">التجارب التي استوردتها أو أنشأتها.</string>
+    <string name="pe_cat_favorites_title">تجاربي المفضلة</string>
+    <string name="pe_cat_favorites_desc">وصول سريع إلى تجاربك المفضلة.</string>
+    <string name="pe_cat_pedagogy_title">أنشطة تعليمية</string>
+    <string name="pe_cat_pedagogy_desc">أجرّب: أنشطة موجَّهة لتلاميذ الإعدادي.</string>
+
+    <string name="pe_exp_title">التجارب</string>
+    <string name="pe_exp_all">الكل</string>
+    <string name="pe_exp_count">%1$d تجربة</string>
+    <string name="pe_exp_empty">لا توجد تجربة مطابقة لبحثك.</string>
+    <string name="pe_exp_empty_favorites">لا توجد مفضلات بعد. المس نجمة تجربة لإضافتها.</string>
+    <string name="pe_exp_empty_custom">لا توجد تجارب مخصصة. استورد تجربة أو أنشئ واحدة بالزر أدناه.</string>
+    <string name="pe_exp_add">إضافة تجارب أو استيرادها</string>
+    <string name="pe_fav_add">إضافة إلى المفضلة</string>
+    <string name="pe_fav_remove">إزالة من المفضلة</string>
+    <string name="pe_sensor_missing">المستشعر غير متوفر في هذا الجهاز: %1$s</string>
+    <string name="pe_saved_badge">قياس محفوظ</string>
+
+    <string name="pe_lab_title">أجرّب</string>
+    <string name="pe_lab_intro">أنشطة تربوية موجَّهة في 9 مراحل للسلك الإعدادي بالمغرب (1AC و2AC و3AC)، باستعمال المستشعرات الحقيقية لهاتفك الذكي.</string>
+    <string name="pe_lab_levels_badge">الإعدادي: 1AC • 2AC • 3AC</string>
+    <string name="pe_lab_start_activity">بدء النشاط</string>
+    <string name="pe_lab_open_sensor">تشغيل القياس الحقيقي</string>
+    <string name="pe_lab_safety_title">تنبيه السلامة</string>
+
+    <string name="pe_step_1">1. أكتشف</string>
+    <string name="pe_step_2">2. هدفي</string>
+    <string name="pe_step_3">3. أستعد</string>
+    <string name="pe_step_4">4. أنجز</string>
+    <string name="pe_step_5">5. ألاحظ</string>
+    <string name="pe_step_6">6. أصف</string>
+    <string name="pe_step_7">7. أفسر</string>
+    <string name="pe_step_8">8. أستنتج</string>
+    <string name="pe_step_9">9. أتحقق من مكتسباتي (اختبار)</string>
+
+    <string name="pe_quiz_validate">التحقق من إجاباتي</string>
+    <string name="pe_quiz_retry">إعادة المحاولة</string>
+    <string name="pe_quiz_score">النتيجة النهائية: %1$d / %2$d</string>
+    <string name="pe_quiz_correct">✓ إجابة صحيحة!</string>
+    <string name="pe_quiz_wrong">✗ إجابة خاطئة.</string>
+    <string name="pe_quiz_select_all">يرجى اختيار إجابة لكل سؤال.</string>
+
+    <string name="pe_act1_title">النشاط 1: قياس تسارع هاتف ذكي</string>
+    <string name="pe_act1_meta">المستشعر: مقياس التسارع (m/s²) • المستويات: 2AC / 3AC (الحركة والقوى)</string>
+    <string name="pe_act1_safety">أمسك الهاتف بإحكام أو ضعه على طاولة مستوية. لا تقذفه أبدًا وتجنّب سقوطه.</string>
+    <string name="pe_act1_s1">عند انطلاق سيارة أو مصعد نشعر بدفع نتيجة تغيّر السرعة مع الزمن. كيف نقيس هذا التغيّر علميًا بواسطة الهاتف الذكي؟</string>
+    <string name="pe_act1_s2">قياس مركّبات التسارع (X وY وZ) بوحدة m/s² والتمييز بين حالة السكون والحركة المتسارعة.</string>
+    <string name="pe_act1_s3">الوسائل: هاتف ذكي موضوع أفقيًا على طاولة. المكتسبات القبلية: مفهوم السرعة والحركة وشدة الثقالة (g ≈ 9,8 m/s²).</string>
+    <string name="pe_act1_s4">1. ضع الهاتف مسطحًا على الطاولة.\n2. المس «تشغيل القياس الحقيقي» أدناه وابدأ التسجيل.\n3. لاحظ القيم لمدة 5 ثوانٍ في حالة سكون، ثم حرّك الهاتف ببطء أفقيًا على المحور X وأوقفه.</string>
+    <string name="pe_act1_s5">في السكون: ax ≈ 0 m/s² وay ≈ 0 m/s² وaz ≈ 9,8 m/s².\nأثناء الحركة الأفقية: ذروة موجبة ثم سالبة على منحنى ax(t).</string>
+    <string name="pe_act1_s6">في السكون يكون المنحنى ثابتًا، وعند التحريك يزداد التسارع على المحور X ثم تنعكس إشارته عند التوقف.</string>
+    <string name="pe_act1_s7">يقيس مقياس التسارع تغيّر السرعة في وحدة الزمن (بوحدة m/s²) بالإضافة إلى المركّبة الرأسية المرتبطة بالثقالة الأرضية.</string>
+    <string name="pe_act1_s8">يميز التسارع كل تغيّر في السرعة ويعبَّر عنه في النظام العالمي للوحدات بوحدة m/s².</string>
+    <string name="pe_act1_q1">ما هي الوحدة العالمية للتسارع؟</string>
+    <string name="pe_act1_q1_a">m/s²</string>
+    <string name="pe_act1_q1_b">km/h</string>
+    <string name="pe_act1_q1_c">N/kg·s</string>
+    <string name="pe_act1_q1_exp">التسارع يمثّل تغيّر السرعة (m/s) في الثانية (s)، أي متر في الثانية المربعة (m/s²).</string>
+    <string name="pe_act1_q2">عندما يكون الهاتف ساكنًا أفقيًا على طاولة، كم تبلغ قيمة التسارع مع g على المحور الرأسي Z تقريبًا؟</string>
+    <string name="pe_act1_q2_a">حوالي 9,8 m/s²</string>
+    <string name="pe_act1_q2_b">100 m/s² بالضبط</string>
+    <string name="pe_act1_q2_c">دائمًا -50 m/s²</string>
+    <string name="pe_act1_q2_exp">يقيس المستشعر مع g شدة مجال الثقالة الأرضية g ≈ 9,8 m/s².</string>
+
+    <string name="pe_act2_title">النشاط 2: ملاحظة تغيّر المجال المغنطيسي قرب مغناطيس</string>
+    <string name="pe_act2_meta">المستشعر: مقياس المغنطيسية (µT) • المستويات: 1AC / 2AC / 3AC (المغنطيسية)</string>
+    <string name="pe_act2_safety">لا تقرّب مغناطيسًا قويًا إلى أقل من 5 cm من الهاتف ولا تضعه مباشرة على الشاشة.</string>
+    <string name="pe_act2_s1">تتجه البوصلة وفق المجال المغنطيسي الأرضي لكنها تنحرف بقرب مغناطيس. كيف تتغير شدة المجال المغنطيسي مع المسافة؟</string>
+    <string name="pe_act2_s2">قياس شدة المجال المغنطيسي B (بوحدة الميكروتسلا µT) وملاحظة تغيّرها عند تقريب مغناطيس صغير وإبعاده.</string>
+    <string name="pe_act2_s3">الوسائل: هاتف ذكي، مغناطيس مدرسي صغير، مسطرة بلاستيكية أو خشبية.</string>
+    <string name="pe_act2_s4">1. أبعد الأجسام الحديدية أو الممغنطة.\n2. شغّل تجربة مقياس المغنطيسية وسجّل قيمة المجال الأرضي (حوالي 40 إلى 50 µT).\n3. قرّب المغناطيس تدريجيًا من 30 cm إلى 8 cm ولاحظ المنحنى.</string>
+    <string name="pe_act2_s5">بعيدًا عن المغناطيس: B ≈ 45 µT.\nعلى بُعد 15 cm: تزداد B بوضوح.\nعلى بُعد 8 cm: تصل B إلى عدة مئات من µT.</string>
+    <string name="pe_act2_s6">كلما نقصت المسافة بين المغناطيس والهاتف ازدادت شدة المجال المغنطيسي B (بوحدة µT) بشكل ملحوظ.</string>
+    <string name="pe_act2_s7">يُحدث المغناطيس في الفضاء المحيط به مجالًا مغنطيسيًا تتناقص شدته سريعًا كلما ابتعدنا عن قطبيه.</string>
+    <string name="pe_act2_s8">يقاس المجال المغنطيسي بالتسلا (T) أو بالميكروتسلا (µT حيث 1 µT = 10⁻⁶ T)، وتزداد شدته بالاقتراب من المغناطيس.</string>
+    <string name="pe_act2_q1">ما هي الوحدة المستعملة في مستشعر الهاتف للتعبير عن المجال المغنطيسي؟</string>
+    <string name="pe_act2_q1_a">الميكروتسلا (µT)</string>
+    <string name="pe_act2_q1_b">الهرتز (Hz)</string>
+    <string name="pe_act2_q1_c">اللوكس (lx)</string>
+    <string name="pe_act2_q1_exp">يعبَّر عن المجال المغنطيسي بالتسلا (T) أو بالميكروتسلا (µT) للمجالات الضعيفة.</string>
+    <string name="pe_act2_q2">ماذا يحدث لشدة المجال المغنطيسي المقاسة عند إبعاد المغناطيس عن الهاتف؟</string>
+    <string name="pe_act2_q2_a">تتناقص تدريجيًا نحو قيمة المجال المغنطيسي الأرضي</string>
+    <string name="pe_act2_q2_b">تبقى لا نهائية مهما كانت المسافة</string>
+    <string name="pe_act2_q2_c">تتحول إلى درجة حرارة بـ °C</string>
+    <string name="pe_act2_q2_exp">يتناقص تأثير المغناطيس مع المسافة حتى لا يبقى سوى المجال المغنطيسي الأرضي.</string>
+
+    <string name="pe_act3_title">النشاط 3: قياس تردد صوت</string>
+    <string name="pe_act3_meta">المستشعر: الميكروفون (Hz) • المستويات: 2AC (الصوتيات والموجات الصوتية)</string>
+    <string name="pe_act3_safety">استعمل مستوى صوت معتدلًا، ولا تصدر أصواتًا قوية قرب الأذن أو مباشرة على الميكروفون.</string>
+    <string name="pe_act3_s1">يصدر وتر آلة موسيقية أو رنّانة صوتًا غليظًا أو حادًا. ما المقدار الفيزيائي الذي يميّز الصوت الحاد عن الصوت الغليظ؟</string>
+    <string name="pe_act3_s2">قياس التردد الأساسي f (بوحدة الهرتز Hz) لصوت دوري بواسطة الميكروفون وربط حدة الصوت بتردده.</string>
+    <string name="pe_act3_s3">الوسائل: هاتف ذكي (مع تفعيل إذن الميكروفون)، رنّانة صوتية (مثلًا 440 Hz) أو ناي أو صفارة.</string>
+    <string name="pe_act3_s4">1. شغّل تجربة قياس تردد الصوت.\n2. أصدر صوتًا مستقرًا على بُعد 20 cm من الميكروفون.\n3. اقرأ قيمة التردد بـ Hz والدور بـ ms، ثم كرّر التجربة بصوت أكثر حدة.</string>
+    <string name="pe_act3_s5">للرنّانة: f ≈ 440 Hz.\nلصوت أكثر حدة: يتجاوز التردد 800 Hz وينقص الدور الزمني.</string>
+    <string name="pe_act3_s6">يمثّل الصوت المستقر إشارة دورية منتظمة، وكلما كان الصوت أكثر حدة كانت قيمة تردده بـ Hz أكبر.</string>
+    <string name="pe_act3_s7">يمثّل التردد f عدد الاهتزازات في الثانية (f = 1 / T) وهو الذي يحدد ارتفاع الصوت (حاد أو غليظ).</string>
+    <string name="pe_act3_s8">يعبَّر عن تردد الصوت بالهرتز (Hz)، والصوت الحاد له تردد أكبر من الصوت الغليظ.</string>
+    <string name="pe_act3_q1">بأي وحدة يعبَّر عن تردد الصوت؟</string>
+    <string name="pe_act3_q1_a">الهرتز (Hz)</string>
+    <string name="pe_act3_q1_b">الباسكال (Pa)</string>
+    <string name="pe_act3_q1_c">المتر في الثانية (m/s)</string>
+    <string name="pe_act3_q1_exp">التردد هو عدد الأدوار في الثانية ووحدته الهرتز (Hz).</string>
+    <string name="pe_act3_q2">من بين صوتين ترددهما 250 Hz و800 Hz، أيهما أكثر حدة؟</string>
+    <string name="pe_act3_q2_a">الصوت ذو التردد 800 Hz</string>
+    <string name="pe_act3_q2_b">الصوت ذو التردد 250 Hz</string>
+    <string name="pe_act3_q2_c">لهما نفس الحدة</string>
+    <string name="pe_act3_q2_exp">كلما ازداد تردد الصوت كان الصوت أكثر حدة.</string>
+
+    <string name="pe_data_title">البيانات</string>
+    <string name="pe_data_intro">قياساتك المحفوظة وتجاربك الشخصية. تبقى على جهازك.</string>
+    <string name="pe_data_saved">القياسات المحفوظة</string>
+    <string name="pe_data_custom">تجارب مخصصة</string>
+    <string name="pe_data_empty">لا توجد بيانات محفوظة بعد. من داخل تجربة، احفظ حالتها لتجدها هنا.</string>
+
+    <string name="pe_set_title">الإعدادات</string>
+    <string name="pe_set_appearance">المظهر</string>
+    <string name="pe_set_theme_system">وضع النظام</string>
+    <string name="pe_set_theme_light">الوضع الفاتح</string>
+    <string name="pe_set_theme_dark">الوضع الداكن</string>
+    <string name="pe_set_language">اللغة</string>
+    <string name="pe_set_lang_system">لغة النظام</string>
+    <string name="pe_set_experiments">التجارب</string>
+    <string name="pe_set_engine">تفضيلات القياس والعرض</string>
+    <string name="pe_set_engine_desc">إعدادات متقدمة لمحرك القياس (الرسوم البيانية، التصدير، إلخ).</string>
+    <string name="pe_set_data">إدارة البيانات</string>
+    <string name="pe_set_data_desc">عرض قياساتي وتجاربي الشخصية.</string>
+    <string name="pe_set_info">معلومات</string>
+    <string name="pe_set_version">الإصدار</string>
+    <string name="pe_set_about">حول التطبيق</string>
+    <string name="pe_set_licenses">تراخيص المصدر المفتوح</string>
+    <string name="pe_set_privacy">الخصوصية</string>
+
+    <string name="pe_dlg_role">أستاذ الفيزياء والكيمياء ومكوِّن في التكنولوجيات التربوية.</string>
+    <string name="pe_dlg_message">«مقاربة مبتكرة لتعلّم الفيزياء بالتجريب.»</string>
+    <string name="pe_dlg_scope">تخصيص الواجهة والوحدات التعليمية. المحرك العلمي هو محرك مشروع المصدر المفتوح phyphox، الذي أُنشئ في جامعة RWTH آخن وطوّره مساهموه.</string>
+    <string name="pe_dlg_credits">الشكر والتراخيص</string>
+    <string name="pe_close">إغلاق</string>
+
+    <string name="pe_about_title">حول التطبيق</string>
+    <string name="pe_about_description">تطبيق علمي وتربوي يحوّل هاتف أندرويد إلى مختبر للفيزياء التجريبية. موجَّه لتلاميذ وأساتذة الفيزياء والكيمياء بالإعدادي.</string>
+    <string name="pe_about_customization_title">التخصيص</string>
+    <string name="pe_about_customization">فيزيك إكسبليسيت لاب نسخة مخصصة من phyphox أنجزها Salimprof (سليم المختار): واجهة جديدة وهوية بصرية ووحدة «أجرّب» التعليمية واختبارات. وهو ليس منتجًا رسميًا لجامعة RWTH آخن ولا لفريق phyphox.</string>
+    <string name="pe_about_original_title">شكر المؤلفين الأصليين</string>
+    <string name="pe_about_original">محرك القياس والتجارب وأدوات التحليل مصدرها phyphox، الذي أُنشئ في المعهد الثاني للفيزياء بجامعة RWTH آخن على يد Sebastian Staacks وزملائه، بمساهمة عدد كبير من المساهمين. إشعارات حقوق النشر الأصلية محفوظة. الترجمات والتجارب المضمَّنة ملك لأصحابها.</string>
+    <string name="pe_about_license_title">الترخيص</string>
+    <string name="pe_about_license">هذا البرنامج مشتق من phyphox ويوزَّع بموجب رخصة جنو العمومية الإصدار 3 (GPL v3) دون أي ضمان. يمكنك دراسته وتعديله وإعادة توزيعه وفق شروط هذه الرخصة. المكوّنات الخارجية (jlhttp وFFTW وChart.js وZXing وAndroidSVG ومكتبات AndroidX وMaterial) تخضع لتراخيصها الخاصة الموضحة في شكر المحرك.</string>
+    <string name="pe_about_source_title">الشيفرة المصدرية المقابلة</string>
+    <string name="pe_about_source_original">المشروع الأصلي: https://github.com/phyphox/phyphox-android</string>
+    <string name="pe_about_source_ours">الشيفرة المصدرية الكاملة لهذه النسخة المخصصة متاحة عند الطلب من الناشر، وفق رخصة GPL v3.</string>
+    <string name="pe_about_source_ours_url">الشيفرة المصدرية لهذه النسخة: %1$s</string>
+    <string name="pe_about_open_repo">فتح مستودع phyphox-android</string>
+    <string name="pe_about_engine_credits">شكر مفصّل للمحرك (phyphox)</string>
+    <string name="pe_about_full_license">النص الكامل لرخصة GPL v3</string>
+    <string name="pe_licenses_title">تراخيص المصدر المفتوح</string>
+    <string name="pe_licenses_intro">نص رخصة GNU GPL v3 التي يوزَّع بموجبها هذا البرنامج:</string>
+    <string name="pe_privacy_title">الخصوصية</string>
+    <string name="pe_privacy_text">يعمل التطبيق دون اتصال بالإنترنت في التجارب المحلية.\n\n• تُعالَج قياسات المستشعرات على جهازك. لا يتطلب التطبيق حسابًا، ولا يحتوي على إعلانات أو أدوات إحصاء، ولا يرسل أي بيانات إلى الناشر أو إلى أطراف ثالثة.\n\n• لا يُستخدم الميكروفون إلا أثناء قياس صوتي. ولا تُستخدم الكاميرا إلا في تجارب الكاميرا. ولا يُستخدم تحديد الموقع (GPS) إلا في تجارب الموقع والسرعة. ولا يُستخدم البلوتوث إلا للاتصال بمستشعرات خارجية تختارها. تُطلب هذه الأذونات عند الحاجة إليها.\n\n• تُخزَّن القياسات المحفوظة والمفضلة والتفضيلات في المساحة الخاصة بالتطبيق. النسخ الاحتياطي التلقائي لأندرويد معطَّل لحماية هذه البيانات.\n\n• لا تحدث تبادلات عبر الشبكة إلا إذا أطلقتَها بنفسك: الوصول عن بُعد إلى تجربة من حاسوب في الشبكة نفسها، أو تجربة شبكية، أو استيراد تجربة بعنوان أو برمز QR، أو فتح رابط خارجي. الوصول عن بُعد غير مشفَّر: استخدمه فقط على شبكة موثوقة.\n\n• لا يتم تصدير البيانات أو مشاركتها إلا بطلبك، عبر قائمة المشاركة في أندرويد.\n\nيمكنك حذف بياناتك في أي وقت بإزالة التطبيق أو بمسح تخزينه من إعدادات أندرويد.</string>
+
+    <string name="pe_back">رجوع</string>
+    <string name="pe_loading_failed">تعذّر التحميل: %1$s</string>
+</resources>

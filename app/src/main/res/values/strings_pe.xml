@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Physique Explicite Lab - interface strings (French is the default language of the customisation). -->
+<resources>
+    <string name="pe_signature" translatable="false">Edited by Salimprof</string>
+    <string name="pe_subtitle">Laboratoire scientifique mobile</string>
+    <string name="pe_tagline">Transformez votre smartphone en laboratoire scientifique.</string>
+    <string name="pe_logo_description">Logo Physique Explicite Lab : un atome stylisé</string>
+
+    <!-- Navigation -->
+    <string name="pe_nav_home">Accueil</string>
+    <string name="pe_nav_experiments">Expériences</string>
+    <string name="pe_nav_lab">J\'expérimente</string>
+    <string name="pe_nav_data">Données</string>
+    <string name="pe_nav_settings">Paramètres</string>
+    <string name="pe_open_settings">Ouvrir les paramètres</string>
+    <string name="pe_open_about_salimprof">Ouvrir la fenêtre Edited by Salimprof</string>
+
+    <!-- Search -->
+    <string name="pe_search_hint">Rechercher une expérience</string>
+
+    <!-- Categories -->
+    <string name="pe_cat_motion_title">Mouvement et accélération</string>
+    <string name="pe_cat_motion_desc">Accéléromètre : mesurer et analyser un mouvement.</string>
+    <string name="pe_cat_rotation_title">Rotation et orientation</string>
+    <string name="pe_cat_rotation_desc">Gyroscope et orientation de l\'appareil.</string>
+    <string name="pe_cat_acoustics_title">Acoustique et sons</string>
+    <string name="pe_cat_acoustics_desc">Microphone : signal, fréquence et spectre.</string>
+    <string name="pe_cat_magnetism_title">Magnétisme</string>
+    <string name="pe_cat_magnetism_desc">Champ magnétique, en µT, autour d\'un aimant.</string>
+    <string name="pe_cat_light_title">Lumière</string>
+    <string name="pe_cat_light_desc">Éclairement lumineux, en lux.</string>
+    <string name="pe_cat_pressure_title">Pression atmosphérique</string>
+    <string name="pe_cat_pressure_desc">Baromètre : évolution de la pression.</string>
+    <string name="pe_cat_location_title">Localisation et mouvement</string>
+    <string name="pe_cat_location_desc">GPS : position, vitesse et temps.</string>
+    <string name="pe_cat_custom_title">Expériences personnalisées</string>
+    <string name="pe_cat_custom_desc">Vos expériences importées ou créées.</string>
+    <string name="pe_cat_favorites_title">Mes expériences favorites</string>
+    <string name="pe_cat_favorites_desc">Accès rapide à vos expériences préférées.</string>
+    <string name="pe_cat_pedagogy_title">Activités pédagogiques</string>
+    <string name="pe_cat_pedagogy_desc">J\'expérimente : activités guidées pour le collège.</string>
+    <string name="pe_cat_open_card">%1$s. %2$s</string>
+
+    <!-- Experiments tab -->
+    <string name="pe_exp_title">Expériences</string>
+    <string name="pe_exp_all">Toutes</string>
+    <string name="pe_exp_count">%1$d expérience(s)</string>
+    <string name="pe_exp_empty">Aucune expérience ne correspond à votre recherche.</string>
+    <string name="pe_exp_empty_favorites">Aucun favori pour l\'instant. Touchez l\'étoile d\'une expérience pour l\'ajouter.</string>
+    <string name="pe_exp_empty_custom">Aucune expérience personnalisée. Importez-en une ou créez-en une avec le bouton ci-dessous.</string>
+    <string name="pe_exp_add">Ajouter ou importer des expériences</string>
+    <string name="pe_fav_add">Ajouter aux favoris</string>
+    <string name="pe_fav_remove">Retirer des favoris</string>
+    <string name="pe_sensor_missing">Capteur indisponible sur cet appareil : %1$s</string>
+    <string name="pe_saved_badge">Mesure enregistrée</string>
+
+    <!-- Lab tab (pedagogical module: J'expérimente & Quiz) -->
+    <string name="pe_lab_title">J\'expérimente</string>
+    <string name="pe_lab_intro">Activités pédagogiques guidées en 9 étapes pour le collège marocain (1AC, 2AC, 3AC), utilisant les capteurs réels de votre smartphone.</string>
+    <string name="pe_lab_levels_badge">Collège : 1AC • 2AC • 3AC</string>
+    <string name="pe_lab_start_activity">Commencer l\'activité</string>
+    <string name="pe_lab_open_sensor">Lancer la mesure réelle</string>
+    <string name="pe_lab_safety_title">Avertissement de sécurité</string>
+
+    <!-- 9 Pedagogical Steps Titles -->
+    <string name="pe_step_1">1. Je découvre</string>
+    <string name="pe_step_2">2. Mon objectif</string>
+    <string name="pe_step_3">3. Je me prépare</string>
+    <string name="pe_step_4">4. Je réalise</string>
+    <string name="pe_step_5">5. J\'observe</string>
+    <string name="pe_step_6">6. Je décris</string>
+    <string name="pe_step_7">7. J\'explique</string>
+    <string name="pe_step_8">8. Je conclus</string>
+    <string name="pe_step_9">9. Je vérifie mes acquis (Quiz)</string>
+
+    <!-- Quiz Strings -->
+    <string name="pe_quiz_validate">Valider mes réponses</string>
+    <string name="pe_quiz_retry">Recommencer</string>
+    <string name="pe_quiz_score">Score final : %1$d / %2$d</string>
+    <string name="pe_quiz_correct">✓ Bonne réponse !</string>
+    <string name="pe_quiz_wrong">✗ Réponse incorrecte.</string>
+    <string name="pe_quiz_select_all">Veuillez sélectionner une réponse pour chaque question.</string>
+
+    <!-- Activity 1: Accelerometer -->
+    <string name="pe_act1_title">Activité 1 : Mesurer l\'accélération d\'un smartphone</string>
+    <string name="pe_act1_meta">Capteur : Accéléromètre (m/s²) • Niveaux : 2AC / 3AC (Mouvement et forces)</string>
+    <string name="pe_act1_safety">Maintenez fermement le smartphone dans votre main ou posez-le sur une table plane. Ne le lancez jamais et évitez toute chute.</string>
+    <string name="pe_act1_s1">Dans une voiture ou un ascenseur qui démarre, on ressent une poussée : la vitesse varie au cours du temps. Comment mesurer scientifiquement cette variation de mouvement avec un smartphone ?</string>
+    <string name="pe_act1_s2">Mesurer les composantes de l\'accélération (X, Y, Z) en m/s² et distinguer l\'état de repos d\'un mouvement accéléré.</string>
+    <string name="pe_act1_s3">Matériel : Smartphone posé à plat sur une table horizontale. Prérequis : Notion de vitesse, de mouvement et de pesanteur terrestre (g ≈ 9,8 m/s²).</string>
+    <string name="pe_act1_s4">1. Posez le smartphone à plat sur la table (écran vers le haut).\n2. Touchez « Lancer la mesure réelle » ci-dessous et démarrez l\'acquisition.\n3. Observez les valeurs pendant 5 s au repos, puis déplacez doucement le téléphone vers la droite (axe X) et arrêtez-le.</string>
+    <string name="pe_act1_s5">Au repos : ax ≈ 0 m/s², ay ≈ 0 m/s², az ≈ 9,8 m/s² (pesanteur).\nLors du déplacement horizontal : pic positif puis négatif sur la courbe ax(t).</string>
+    <string name="pe_act1_s6">Au repos, la courbe est constante. Lors de la mise en mouvement, l\'accélération suivant l\'axe X augmente puis change de signe lors du freinage.</string>
+    <string name="pe_act1_s7">L\'accéléromètre mesure la variation de vitesse par unité de temps (en m/s²) ainsi que la composante verticale liée à la pesanteur terrestre lorsque le capteur inclut g.</string>
+    <string name="pe_act1_s8">L\'accélération caractérise toute variation de vitesse (démarrage, freinage ou changement de direction) et s\'exprime en m/s² dans le Système International.</string>
+    <string name="pe_act1_q1">Quelle est l\'unité légale de l\'accélération dans le Système International ?</string>
+    <string name="pe_act1_q1_a">m/s²</string>
+    <string name="pe_act1_q1_b">km/h</string>
+    <string name="pe_act1_q1_c">N/kg·s</string>
+    <string name="pe_act1_q1_exp">L\'accélération exprime une variation de vitesse (m/s) par seconde (s), soit des mètres par seconde au carré (m/s²).</string>
+    <string name="pe_act1_q2">Lorsque le smartphone est immobile à plat sur une table, que vaut environ l\'accélération avec g sur l\'axe vertical Z ?</string>
+    <string name="pe_act1_q2_a">Environ 9,8 m/s²</string>
+    <string name="pe_act1_q2_b">Exactement 100 m/s²</string>
+    <string name="pe_act1_q2_c">Toujours -50 m/s²</string>
+    <string name="pe_act1_q2_exp">L\'accéléromètre avec g mesure la réaction qui compense l\'intensité de la pesanteur terrestre g ≈ 9,8 m/s².</string>
+
+    <!-- Activity 2: Magnetometer -->
+    <string name="pe_act2_title">Activité 2 : Observer la variation du champ magnétique près d\'un aimant</string>
+    <string name="pe_act2_meta">Capteur : Magnétomètre (µT) • Niveaux : 1AC / 2AC / 3AC (Magnétisme)</string>
+    <string name="pe_act2_safety">N\'approchez pas un aimant puissant à moins de 5 cm du smartphone et ne le posez jamais directement sur l\'écran pour ne pas saturer le capteur.</string>
+    <string name="pe_act2_s1">La boussole s\'oriente grâce au champ magnétique terrestre, mais elle dévie fortement près d\'un aimant. Comment varie l\'intensité du champ magnétique avec la distance ?</string>
+    <string name="pe_act2_s2">Mesurer l\'intensité du champ magnétique B (en microteslas, µT) et observer son évolution lorsqu\'on approche puis éloigne un petit aimant.</string>
+    <string name="pe_act2_s3">Matériel : Smartphone, un petit aimant scolaire, une règle graduée en plastique ou en bois.</string>
+    <string name="pe_act2_s4">1. Éloignez tout objet métallique ou aimanté.\n2. Lancez l\'expérience du magnétomètre et notez la valeur initiale du champ magnétique terrestre (environ 40 à 50 µT).\n3. Approchez progressivement le petit aimant de 30 cm jusqu\'à 8 cm du téléphone et observez la courbe.</string>
+    <string name="pe_act2_s5">Loin de l\'aimant : B ≈ 45 µT.\nÀ 15 cm : B augmente nettement.\nÀ 8 cm : B atteint plusieurs centaines de µT.</string>
+    <string name="pe_act2_s6">Plus la distance entre l\'aimant et le smartphone diminue, plus la valeur du champ magnétique total B (en µT) augmente fortement.</string>
+    <string name="pe_act2_s7">Un aimant crée autour de lui un champ magnétique dont l\'intensité décroît rapidement lorsqu\'on s\'éloigne de ses pôles.</string>
+    <string name="pe_act2_s8">Le champ magnétique se mesure en teslas (T) ou en microteslas (µT, avec 1 µT = 10⁻⁶ T). Son intensité augmente à proximité d\'un aimant.</string>
+    <string name="pe_act2_q1">Quelle unité est couramment utilisée par le magnétomètre du smartphone pour exprimer le champ magnétique ?</string>
+    <string name="pe_act2_q1_a">Le microtesla (µT)</string>
+    <string name="pe_act2_q1_b">Le hertz (Hz)</string>
+    <string name="pe_act2_q1_c">Le lux (lx)</string>
+    <string name="pe_act2_q1_exp">Le champ magnétique s\'exprime en teslas (T) ou en microteslas (µT) pour les champs faibles comme le champ terrestre.</string>
+    <string name="pe_act2_q2">Que fait l\'intensité du champ magnétique mesuré lorsqu\'on éloigne l\'aimant du capteur ?</string>
+    <string name="pe_act2_q2_a">Elle diminue progressivement vers la valeur du champ terrestre</string>
+    <string name="pe_act2_q2_b">Elle reste infinie quelle que soit la distance</string>
+    <string name="pe_act2_q2_c">Elle devient une température en °C</string>
+    <string name="pe_act2_q2_exp">L\'action magnétique d\'un aimant diminue rapidement avec la distance jusqu\'à ne laisser que le champ magnétique terrestre.</string>
+
+    <!-- Activity 3: Sound frequency -->
+    <string name="pe_act3_title">Activité 3 : Mesurer la fréquence d\'un son</string>
+    <string name="pe_act3_meta">Capteur : Microphone (Hz) • Niveaux : 2AC (Acoustique et ondes sonores)</string>
+    <string name="pe_act3_safety">Utilisez un volume sonore modéré. N\'émettez jamais de sons forts près de vos oreilles ou directement contre le microphone.</string>
+    <string name="pe_act3_s1">Une corde de guitare ou un diapason produit une note plus ou moins aiguë. Quelle grandeur physique distingue un son grave d\'un son aigu ?</string>
+    <string name="pe_act3_s2">Mesurer la fréquence fondamentale f (en hertz, Hz) d\'un son périodique à l\'aide du microphone et relier la hauteur du son à sa fréquence.</string>
+    <string name="pe_act3_s3">Matériel : Smartphone (autorisation du microphone activée), diapason (ex. La 440 Hz), flûte ou sifflet.</string>
+    <string name="pe_act3_s4">1. Lancez la mesure de fréquence sonore (Autocorrélation audio).\n2. Faites vibrer le diapason ou sifflez une note stable à 20 cm du microphone.\n3. Lisez la fréquence affichée en Hz et la période en ms, puis recommencez avec un son plus aigu.</string>
+    <string name="pe_act3_s5">Pour le diapason : f ≈ 440 Hz.\nPour un sifflement plus aigu : la fréquence mesurée dépasse 800 Hz et la période diminue.</string>
+    <string name="pe_act3_s6">Un son stable présente un signal périodique régulier. Plus le son est aigu, plus la valeur de la fréquence en Hz est élevée.</string>
+    <string name="pe_act3_s7">La fréquence f représente le nombre de vibrations par seconde (f = 1 / T). Elle détermine la hauteur (grave ou aiguë) du son perçu.</string>
+    <string name="pe_act3_s8">La fréquence d\'un son s\'exprime en hertz (Hz). Un son aigu possède une fréquence plus élevée qu\'un son grave.</string>
+    <string name="pe_act3_q1">En quelle unité s\'exprime la fréquence d\'un son ?</string>
+    <string name="pe_act3_q1_a">Le hertz (Hz)</string>
+    <string name="pe_act3_q1_b">Le pascal (Pa)</string>
+    <string name="pe_act3_q1_c">Le mètre par seconde (m/s)</string>
+    <string name="pe_act3_q1_exp">La fréquence correspond au nombre de périodes par seconde et s\'exprime en hertz (Hz).</string>
+    <string name="pe_act3_q2">De deux sons de fréquences 250 Hz et 800 Hz, lequel est le plus aigu ?</string>
+    <string name="pe_act3_q2_a">Le son de fréquence 800 Hz</string>
+    <string name="pe_act3_q2_b">Le son de fréquence 250 Hz</string>
+    <string name="pe_act3_q2_c">Ils ont la même hauteur</string>
+    <string name="pe_act3_q2_exp">Plus la fréquence d\'un son est élevée, plus ce son est aigu.</string>
+
+    <!-- Data tab -->
+    <string name="pe_data_title">Données</string>
+    <string name="pe_data_intro">Vos mesures enregistrées et vos expériences personnelles. Elles restent sur votre appareil.</string>
+    <string name="pe_data_saved">Mesures enregistrées</string>
+    <string name="pe_data_custom">Expériences personnalisées</string>
+    <string name="pe_data_empty">Aucune donnée enregistrée pour l\'instant. Depuis une expérience, enregistrez son état pour le retrouver ici.</string>
+
+    <!-- Settings -->
+    <string name="pe_set_title">Paramètres</string>
+    <string name="pe_set_appearance">Apparence</string>
+    <string name="pe_set_theme_system">Mode système</string>
+    <string name="pe_set_theme_light">Mode clair</string>
+    <string name="pe_set_theme_dark">Mode sombre</string>
+    <string name="pe_set_language">Langue</string>
+    <string name="pe_set_lang_system">Langue du système</string>
+    <string name="pe_set_lang_fr">Français</string>
+    <string name="pe_set_lang_ar">العربية</string>
+    <string name="pe_set_lang_en">English</string>
+    <string name="pe_set_experiments">Expériences</string>
+    <string name="pe_set_engine">Préférences de mesure et d\'affichage</string>
+    <string name="pe_set_engine_desc">Réglages avancés du moteur de mesure (graphiques, export, etc.).</string>
+    <string name="pe_set_data">Gestion des données</string>
+    <string name="pe_set_data_desc">Consulter mes mesures et mes expériences personnelles.</string>
+    <string name="pe_set_info">Informations</string>
+    <string name="pe_set_version">Version</string>
+    <string name="pe_set_about">À propos de l\'application</string>
+    <string name="pe_set_licenses">Licences open source</string>
+    <string name="pe_set_privacy">Confidentialité</string>
+
+    <!-- Edited by Salimprof dialog -->
+    <string name="pe_dlg_person">Salim El Mokhtar</string>
+    <string name="pe_dlg_role">Enseignant de physique-chimie et formateur en technologies éducatives.</string>
+    <string name="pe_dlg_message">« Une approche innovante pour apprendre la physique par l\'expérimentation. »</string>
+    <string name="pe_dlg_scope">Personnalisation de l\'interface et modules pédagogiques. Le moteur scientifique est celui du projet open source phyphox, créé à l\'université RWTH Aachen et développé par ses contributeurs.</string>
+    <string name="pe_dlg_credits">Crédits et licences</string>
+    <string name="pe_close">Fermer</string>
+
+    <!-- About / legal page -->
+    <string name="pe_about_title">À propos de l\'application</string>
+    <string name="pe_about_description">Application scientifique et pédagogique qui transforme un smartphone Android en laboratoire de physique expérimentale. Elle s\'adresse aux élèves et aux enseignants de physique-chimie du collège.</string>
+    <string name="pe_about_customization_title">Personnalisation</string>
+    <string name="pe_about_customization">Physique Explicite Lab est une version personnalisée de phyphox, réalisée par Salimprof (Salim El Mokhtar) : nouvelle interface, identité visuelle, module pédagogique « J\'expérimente » et quiz. Il ne s\'agit pas d\'un produit officiel de la RWTH Aachen University ni de l\'équipe phyphox.</string>
+    <string name="pe_about_original_title">Crédits des auteurs originaux</string>
+    <string name="pe_about_original">Le moteur de mesure, les expériences et les outils d\'analyse proviennent de phyphox, créé au 2e Institut de physique de la RWTH Aachen University par Sebastian Staacks et ses collaborateurs, avec de nombreux contributeurs. Les notices de copyright d\'origine sont conservées. Les traductions et expériences intégrées appartiennent à leurs auteurs respectifs.</string>
+    <string name="pe_about_license_title">Licence</string>
+    <string name="pe_about_license">Ce logiciel dérive de phyphox et il est distribué sous la licence publique générale GNU version 3 (GPL v3), sans aucune garantie. Vous pouvez l\'étudier, le modifier et le redistribuer selon les termes de cette licence. Des composants tiers (jlhttp, FFTW, Chart.js, ZXing, AndroidSVG, bibliothèques AndroidX et Material) sont soumis à leurs propres licences, décrites dans les crédits du moteur.</string>
+    <string name="pe_about_source_title">Code source correspondant</string>
+    <string name="pe_about_source_original">Projet d\'origine : https://github.com/phyphox/phyphox-android</string>
+    <string name="pe_about_source_ours">Le code source complet de cette version personnalisée est fourni sur demande à l\'éditeur, conformément à la GPL v3.</string>
+    <string name="pe_about_source_ours_url">Code source de cette version : %1$s</string>
+    <string name="pe_about_open_repo">Ouvrir le dépôt phyphox-android</string>
+    <string name="pe_about_engine_credits">Crédits détaillés du moteur (phyphox)</string>
+    <string name="pe_about_full_license">Texte complet de la licence GPL v3</string>
+    <string name="pe_licenses_title">Licences open source</string>
+    <string name="pe_licenses_intro">Texte de la licence GNU GPL v3, sous laquelle ce logiciel est distribué :</string>
+    <string name="pe_privacy_title">Confidentialité</string>
+    <string name="pe_privacy_text">Physique Explicite Lab fonctionne hors connexion pour les expériences locales.\n\n• Les mesures des capteurs sont traitées sur votre appareil. L\'application n\'a pas de compte utilisateur, ne contient ni publicité ni outil de statistiques, et n\'envoie aucune donnée à l\'éditeur ni à des tiers.\n\n• Le microphone n\'est utilisé que pendant une mesure sonore. La caméra n\'est utilisée que pour les expériences de caméra. La localisation (GPS) n\'est utilisée que pour les expériences de position et de vitesse. Le Bluetooth n\'est utilisé que pour se connecter à des capteurs externes que vous choisissez. Ces autorisations vous sont demandées au moment où elles sont nécessaires.\n\n• Les mesures enregistrées, les favoris et les préférences sont stockés dans l\'espace privé de l\'application. La sauvegarde automatique Android est désactivée pour protéger ces données.\n\n• Des échanges réseau n\'ont lieu que si vous les déclenchez : accès à distance à une expérience depuis un ordinateur du même réseau, expérience réseau, import d\'une expérience par adresse ou code QR, ouverture d\'un lien externe. Dans l\'accès à distance, les échanges ne sont pas chiffrés : utilisez-le uniquement sur un réseau de confiance.\n\n• L\'export et le partage de données se font uniquement à votre demande, par le menu de partage d\'Android.\n\nVous pouvez supprimer vos données à tout moment en désinstallant l\'application ou en effaçant son stockage dans les réglages Android.</string>
+
+    <!-- Misc -->
+    <string name="pe_back">Retour</string>
+    <string name="pe_loading_failed">Chargement impossible : %1$s</string>
+</resources>
