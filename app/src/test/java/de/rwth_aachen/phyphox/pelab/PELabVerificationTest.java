@@ -68,7 +68,7 @@ public class PELabVerificationTest {
 
         // 2. Modification date and configurable modified source URL present in BuildConfig
         assertEquals("2026-11-02", BuildConfig.PE_MODIFICATION_DATE);
-        assertNotNull(BuildConfig.PE_MODIFIED_SOURCE_URL);
+        assertEquals("https://github.com/salimprof/PhysiqueExpliciteLab", BuildConfig.PE_MODIFIED_SOURCE_URL);
 
         // 3. Full GNU GPL v3 license text bundled offline in assets/gpl-3.0.txt
         File gplAsset = resolveAppFile("src/main/assets/gpl-3.0.txt");

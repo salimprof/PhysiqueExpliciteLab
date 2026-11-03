@@ -5,6 +5,7 @@
 - **Customization Signature**: **Edited by Salimprof**
 - **Person Responsible for Modifications**: **Salimprof (Salim El Mokhtar)** — Physics & Chemistry Teacher and Educational Technology Trainer
 - **Modification Date**: **2026-11-02**
+- **Modified Source Repository (GNU GPL v3)**: https://github.com/salimprof/PhysiqueExpliciteLab
 - **Android Application ID**: `com.salimprof.physiqueexplicitelab`
 - **Version Name**: `1.0.0-pe (base phyphox 1.2.1)` (`versionCode`: `1020102`)
 - **Official Independence Disclaimer**: **Physique Explicite Lab ("Edited by Salimprof") is an independent customized version derived from phyphox. It is NOT an official product of RWTH Aachen University or of the phyphox team.**
