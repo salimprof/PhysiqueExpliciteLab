@@ -1,1 +1,1 @@
-Perform physics experiments with your phone. (by the RWTH Aachen University)
+﻿Mobile experimental physics lab for middle school — Edited by Salimprof.

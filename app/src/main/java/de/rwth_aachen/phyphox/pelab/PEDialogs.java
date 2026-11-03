@@ -166,15 +166,20 @@ public final class PEDialogs {
         ).toString().trim();
 
         String additionalThirdParty =
-                "• AndroidSVG (com.caverock:androidsvg-aar:1.4)\n"
+                "• AndroidSVG (com.caverock:androidsvg:1.4)\n"
                 + "  Copyright © 2013–2019 Paul LeBeau / CaveRock Software Ltd.\n"
                 + "  Licensed under the Apache License, Version 2.0.\n\n"
                 + "• Apache Commons IO (org.apache.commons:commons-io:1.3.2)\n"
                 + "  Copyright © 2002–2007 The Apache Software Foundation.\n"
                 + "  Licensed under the Apache License, Version 2.0.\n\n"
-                + "• AndroidX Libraries & Material Components for Android (com.google.android.material / androidx.*)\n"
+                + "• Kotlin Coroutines (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0)\n"
+                + "  Copyright © 2016–2024 JetBrains s.r.o. and Kotlin Programming Language contributors.\n"
+                + "  Licensed under the Apache License, Version 2.0.\n\n"
+                + "• AndroidX Libraries, CameraX & Material Components for Android (androidx.* / com.google.android.material:1.13.0)\n"
                 + "  Copyright © The Android Open Source Project / Google LLC.\n"
                 + "  Licensed under the Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0).\n\n"
+                + "• MQTT 3.1.1 Client (NetworkConnection/Mqtt/MqttClient.java)\n"
+                + "  Built-in phyphox implementation distributed under GNU GPL v3 (replaces the historical Eclipse Paho / hannesa2 dependency).\n\n"
                 + "• Web Remote Interface Assets (Chart.js MIT License, Normalize.css MIT License, Open Sans OFL/Apache 2.0)\n"
                 + "  Copyright © respective authors in app/src/main/assets/remote.";
 

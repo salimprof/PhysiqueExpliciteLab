@@ -18,7 +18,8 @@ import de.rwth_aachen.phyphox.BuildConfig;
  * Automated verification of:
  * 1. The Physique Explicite Lab pedagogical module ("J'expérimente") & interactive Quiz definitions.
  * 2. GNU GPL v3 compliance artifacts (bundled full GPL v3 text, original repo URL, modification date,
- *    configurable modified source URL, and Section 5a modification headers).
+ *    configured modified source URL, and Section 5a modification headers).
+ * 3. Repository consistency (.gitmodules, submodules presence, bilingual README.md, PRIVACY_POLICY.md).
  */
 public class PELabVerificationTest {
 
@@ -26,6 +27,14 @@ public class PELabVerificationTest {
         File f = new File(relativeToApp);
         if (!f.exists()) {
             f = new File("app/" + relativeToApp);
+        }
+        return f;
+    }
+
+    private static File resolveRepoRootFile(String relativeToRoot) {
+        File f = new File("../" + relativeToRoot);
+        if (!f.exists()) {
+            f = new File(relativeToRoot);
         }
         return f;
     }
@@ -93,5 +102,38 @@ public class PELabVerificationTest {
             assertTrue("File must identify Salimprof: " + relPath, src.contains("Salimprof"));
             assertTrue("File must carry modification date 2026-11-02: " + relPath, src.contains("2026-11-02"));
         }
+    }
+
+    @Test
+    public void testRepositoryDocumentationAndSubmodulesConsistency() throws Exception {
+        // 1. Submodules (.gitmodules + populated experiments & remote directories)
+        File gitmodules = resolveRepoRootFile(".gitmodules");
+        assertTrue(".gitmodules must exist", gitmodules.exists());
+        String gmText = new String(Files.readAllBytes(gitmodules.toPath()), StandardCharsets.UTF_8);
+        assertTrue(gmText.contains("app/src/main/assets/experiments"));
+        assertTrue(gmText.contains("app/src/main/assets/remote"));
+        assertFalse("Orphaned paho.mqtt.android submodule must be removed from .gitmodules",
+                gmText.contains("paho.mqtt.android"));
+
+        File remoteIndex = resolveAppFile("src/main/assets/remote/index.html");
+        assertTrue("Remote interface submodule (index.html) must be populated", remoteIndex.exists());
+
+        // 2. Bilingual README.md
+        File readme = resolveRepoRootFile("README.md");
+        assertTrue("README.md must exist", readme.exists());
+        String readmeText = new String(Files.readAllBytes(readme.toPath()), StandardCharsets.UTF_8);
+        assertTrue(readmeText.contains("Physique Explicite Lab"));
+        assertTrue(readmeText.contains("Edited by Salimprof"));
+        assertTrue(readmeText.contains("Version Française"));
+        assertTrue(readmeText.contains("English Version"));
+        assertTrue(readmeText.contains("https://github.com/phyphox/phyphox-android"));
+        assertTrue(readmeText.contains("https://github.com/salimprof/PhysiqueExpliciteLab"));
+
+        // 3. Privacy Policy & Notice consistency
+        File privacy = resolveRepoRootFile("PRIVACY_POLICY.md");
+        assertTrue("PRIVACY_POLICY.md must exist", privacy.exists());
+        String privacyText = new String(Files.readAllBytes(privacy.toPath()), StandardCharsets.UTF_8);
+        assertTrue(privacyText.contains("com.salimprof.physiqueexplicitelab"));
+        assertTrue(privacyText.contains("1020105"));
     }
 }

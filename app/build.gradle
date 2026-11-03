@@ -5,7 +5,7 @@ android {
     defaultConfig {
         applicationId "com.salimprof.physiqueexplicitelab"
         minSdkVersion 21
-        targetSdkVersion 37
+        targetSdkVersion 35
         compileSdk 37
 
         versionName "1.0.0-pe (base phyphox 1.2.1)"

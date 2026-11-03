@@ -1,43 +1,27 @@
-Saviez-vous que vous possédiez un magnétomètre 3D ? Que vous pouvez utiliser votre téléphone comme un pendule pour mesurer l'accélération gravitationnelle de la terre ? Que vous pouvez transformer votre téléphone en sonar ?
+Transformez votre smartphone Android en véritable laboratoire de physique expérimentale avec Physique Explicite Lab (Edited by Salimprof).
 
-phyphox vous donne accès aux capteurs de votre téléphone, soit directement, soit par le biais d'expériences toutes prêtes qui analysent vos données et vous permettent de les exporter pour une analyse plus poussée. Vous pouvez même créer vos propres expériences sur phyphox.org et les partager avec vos collègues, étudiants et amis.
+Conçue pour les élèves et les enseignants de physique-chimie au collège (1AC, 2AC, 3AC) ainsi que pour les clubs scientifiques, l'application exploite les capteurs matériels réels de votre téléphone pour réaliser des mesures scientifiques rigoureuses hors connexion :
 
-Caractéristiques principales :
-• Des expériences prédéfinies. Il suffit d'appuyer sur play pour commencer.
-• Exporter vos données dans un large éventail de formats disponibles.
-• Contrôlez votre expérience à distance via une interface web sur un PC connecté sur le même réseau que votre téléphone. Il n'y a rien à installer, tout ce dont vous avez besoin est un navigateur web moderne.
-• Créez vos propres expériences en sélectionnant des entrées de capteurs, en définissant des étapes d'analyse et en créant une interface à l'aide de notre éditeur Web (<a href="http://phyphox.org/editor">http://phyphox.org/editor</a>). L'analyse peut consister à additionner simplement deux valeurs ou à utiliser des méthodes avancées comme les transformées de Fourier ou la corrélation croisée. Nous proposons toute une panoplie de fonctions d'analyse.
+• Mouvement et accélération : Accéléromètre (axes X, Y, Z et norme en m/s²).
+• Rotation et orientation : Gyroscope (vitesse angulaire en rad/s) et inclinaison.
+• Acoustique et sons : Microphone (oscilloscope sonore, mesure de fréquence en Hz, spectre FFT).
+• Magnétisme : Magnétomètre (champ magnétique en µT autour d'un aimant ou champ terrestre).
+• Lumière : Capteur d'éclairement lumineux (en lux).
+• Pression atmosphérique : Baromètre (en hPa).
+• Localisation et mouvement : GPS (position, altitude et vitesse).
 
-Capteurs compatibles :
-• Accéléromètre
-• Magnétomètre
-• Gyroscope
-• Intensité lumineuse
-• Pression
-• Microphone
-• Proximité
-• GPS
-*certains capteurs ne sont pas présents sur tous les téléphones.
+MODULE PÉDAGOGIQUE « J'EXPÉRIMENTE » & QUIZ INTERACTIF :
+Chaque activité guidée accompagne l'élève en 9 étapes structurées :
+1. Je découvre — 2. Mon objectif — 3. Je me prépare — 4. Je réalise (avec lancement direct de la mesure réelle) — 5. J'observe — 6. Je décris — 7. J'explique — 8. Je conclus — 9. Je vérifie mes acquis (QCM interactif avec correction immédiate et explication scientifique).
 
-Formats d'exportation des données
-• CSV (valeurs séparées par des virgules)
-• TSV (valeurs séparées par des tabulations)
-• Excel
-(si vous avez besoin d'autres formats, veuillez nous le faire savoir)
+FONCTIONNALITÉS SCIENTIFIQUES :
+• Graphiques scientifiques temps réel avec axes gradués et unités du Système International.
+• Enregistrement local des mesures et expériences favorites.
+• Exportation et partage des données au format CSV, TSV et Excel.
+• Interface trilingue : Français, Arabe (support RTL complet) et Anglais, avec mode Clair et mode Sombre.
+• Fonctionnement hors ligne pour les expériences locales, sans publicité, sans compte et sans collecte de données personnelles.
 
-
-Cette application a été développée au 2nd Institut de physique A de l'Université d'Aix-la-Chapelle (2nd Institute of Physics A at the RWTH Aachen University).
-
---
-
-Explication des permissions demandées
-
-Sur Android 6.0 ou plus récent, certaines permissions ne seront demandées que lorsque vous en aurez besoin.
-
-
-Internet : permet à phyphox d'accéder au réseau, ce qui est nécessaire pour charger des expériences à partir de ressources en ligne ou en cas de contrôle à distance. Dans tous les cas, cet accès ne se fait qu'à la demande de l'utilisateur et aucune autre donnée n'est transmise.
-Bluetooth : éventuellement nécessaire pour accéder à des capteurs externes.
-Accès au stockage externe : éventuellement nécessaire pour ouvrir une expérience enregistrée sur l'appareil.
-Enregistrement audio : nécessaire pour pouvoir utiliser le microphone dans les expériences.
-Localisation : nécessaire pour pouvoir utiliser le GPS dans les expériences.
-Appareil photo: utilisé pour scanner les codes QR pour les configurations d'expériences externes.
+AVIS DE MODIFICATION, CRÉDITS & LICENCE GNU GPL v3 :
+Version personnalisée indépendante (« Edited by Salimprof ») modifiée le 2026-11-02 par Salim El Mokhtar (Salimprof). Il ne s'agit PAS d'un produit officiel de la RWTH Aachen University ni de l'équipe phyphox.
+Code source de cette version modifiée : https://github.com/salimprof/PhysiqueExpliciteLab
+Basée sur le projet open source phyphox (Copyright © RWTH Aachen University, https://github.com/phyphox/phyphox-android) et distribuée sous licence GNU General Public License v3.0 (GNU GPL v3).

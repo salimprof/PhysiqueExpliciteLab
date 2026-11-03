@@ -1,30 +1,27 @@
-Did you know that you are carrying a 3D magnetometer? That you can use your phone as a pendulum to measure earth's local gravitational acceleration? That you can turn your phone into a sonar?
+Turn your Android smartphone into a real experimental physics laboratory with Physique Explicite Lab (Edited by Salimprof).
 
-phyphox gives you access to the sensors of your phone either directly or through ready-to-play experiments which analyze your data and let you export raw data along with the results for further analysis. You can even define your own experiments on phyphox.org and share them with colleagues, students and friends.
+Designed for middle school physics and chemistry students and teachers (1AC, 2AC, 3AC) as well as science clubs, the app uses your phone's real hardware sensors to perform rigorous scientific measurements offline:
 
-Selected Features:
-• A selection of pre-defined experiments. Just press play to start.
-• Export your data to a range of widely used formats
-• Remote-control your experiment through a web interface from any PC on the same network as your phone. No need to install anything on those PCs - all you need is a modern web browser.
-• Define your own experiments by selecting sensor inputs, defining analysis steps and creating views as an interface using our web-editor (<a href="http://phyphox.org/editor">http://phyphox.org/editor</a>). The analysis consists of just adding two values or using advanced methods like Fourier transforms and crosscorrelation. We offer a whole toolbox of analysis functions.
+• Motion and acceleration: Accelerometer (X, Y, Z axes and magnitude in m/s²).
+• Rotation and orientation: Gyroscope (angular velocity in rad/s) and inclination.
+• Acoustics and sound: Microphone (audio oscilloscope, frequency measurement in Hz, FFT spectrum).
+• Magnetism: Magnetometer (magnetic field in µT near a magnet or Earth's field).
+• Light: Illuminance sensor (in lux).
+• Atmospheric pressure: Barometer (in hPa).
+• Location and movement: GPS (position, altitude and speed).
 
-Sensors supported:
-• Accelerometer
-• Magnetometer
-• Gyroscope
-• Light intensity
-• Pressure
-• Microphone
-• Proximity
-• GPS
-• Camera
-• LiDAR/ToF
-*some sensors are not present on every phone.
+"LET'S EXPERIMENT" (J'EXPÉRIMENTE) MODULE & INTERACTIVE QUIZ:
+Each guided activity leads students through 9 structured inquiry steps:
+1. I discover — 2. My objective — 3. I prepare — 4. I perform (with direct launch of the real sensor measurement) — 5. I observe — 6. I describe — 7. I explain — 8. I conclude — 9. Check my understanding (interactive multiple-choice quiz with instant feedback and scientific explanations).
 
-Export formats
-• CSV (Comma separated values)
-• TSV (Tab-separated values)
-• Excel
-(if you need other formats, please let us know)
+SCIENTIFIC FEATURES:
+• Real-time scientific graphs with labelled axes and SI units.
+• Local saving of measurement states and favourite experiments.
+• Data export and sharing in CSV, TSV and Excel formats.
+• Trilingual interface: French, Arabic (full RTL support) and English, with Light and Dark modes.
+• Offline operation for local experiments, with no ads, no accounts, and no personal data collection.
 
-This app has been developed at the 2nd Institute of Physics A at the RWTH Aachen University.
+MODIFICATION NOTICE, CREDITS & GNU GPL v3 LICENCE:
+Independent customized version ("Edited by Salimprof") modified on 2026-11-02 by Salim El Mokhtar (Salimprof). This is NOT an official product of RWTH Aachen University or of the phyphox team.
+Source code of this modified version: https://github.com/salimprof/PhysiqueExpliciteLab
+Based on the open-source phyphox project (Copyright © RWTH Aachen University, https://github.com/phyphox/phyphox-android) and distributed under the GNU General Public License v3.0 (GNU GPL v3).
