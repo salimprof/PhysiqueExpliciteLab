@@ -14,6 +14,10 @@ android {
 
         def locales = ['fr', 'ar', 'en', 'cs', 'de', 'el', 'es', 'gu', 'hi', 'it', 'ja', 'ka', 'ko', 'nl', 'pl', 'pt', 'ru', 'sr', 'b+sr+Latn', 'ta', 'tr', 'vi', 'zh-rCN', 'zh-rTW']
         buildConfigField "String[]", "LOCALE_ARRAY", "new String[]{\""+locales.join("\",\"")+"\"}"
+        def peSourceUrl = project.findProperty("PE_MODIFIED_SOURCE_URL") ?: ""
+        def peModDate = project.findProperty("PE_MODIFICATION_DATE") ?: "2026-11-02"
+        buildConfigField "String", "PE_MODIFIED_SOURCE_URL", "\"" + peSourceUrl.toString().replace("\"", "\\\"") + "\""
+        buildConfigField "String", "PE_MODIFICATION_DATE", "\"" + peModDate.toString().replace("\"", "\\\"") + "\""
         resourceConfigurations += locales
 
         vectorDrawables {

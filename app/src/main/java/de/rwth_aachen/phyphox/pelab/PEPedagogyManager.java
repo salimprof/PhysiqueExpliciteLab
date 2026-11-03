@@ -1,3 +1,14 @@
+/*
+ * Physique Explicite Lab ("Edited by Salimprof")
+ * Copyright (C) 2026 Salimprof (Salim El Mokhtar) — "J'expérimente" 9-step pedagogical module & interactive quiz
+ * Based on phyphox (https://phyphox.org / https://github.com/phyphox/phyphox-android)
+ * Copyright (C) 2017 RWTH Aachen University, 2nd Institute of Physics (Sebastian Staacks et al.)
+ *
+ * MODIFICATION NOTICE (GNU GPL v3 Section 5a):
+ * Added on 2026-11-02 by Salimprof (Salim El Mokhtar) for "Physique Explicite Lab, Edited by Salimprof".
+ * This is an independent customized version and is NOT an official RWTH Aachen University or phyphox product.
+ * Distributed under the GNU General Public License v3.0 (see assets/gpl-3.0.txt).
+ */
 package de.rwth_aachen.phyphox.pelab;
 
 import static de.rwth_aachen.phyphox.ExperimentList.model.Const.EXPERIMENT_ISASSET;

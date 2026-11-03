@@ -1,3 +1,13 @@
+/*
+ * Original file from phyphox (https://github.com/phyphox/phyphox-android)
+ * Copyright (C) RWTH Aachen University / Dr. Sebastian Staacks and contributors.
+ *
+ * Modified by Salimprof (Salim El Mokhtar) on 2026-11-02 for "Physique Explicite Lab":
+ * - Added sensorTypes field to classify experiments into learning categories.
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms of
+ * the GNU General Public License version 3 as published by the Free Software Foundation.
+ */
 package de.rwth_aachen.phyphox.ExperimentList.model;
 
 import android.graphics.drawable.Drawable;

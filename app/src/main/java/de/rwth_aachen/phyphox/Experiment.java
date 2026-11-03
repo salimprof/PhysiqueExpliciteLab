@@ -1,3 +1,13 @@
+/*
+ * Original file from phyphox (https://github.com/phyphox/phyphox-android)
+ * Copyright (C) RWTH Aachen University / Dr. Sebastian Staacks and contributors.
+ *
+ * Modified by Salimprof (Salim El Mokhtar) on 2026-11-02 for "Physique Explicite Lab":
+ * - Added favourite experiment star action in the experiment toolbar menu.
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms of
+ * the GNU General Public License version 3 as published by the Free Software Foundation.
+ */
 package de.rwth_aachen.phyphox;
 
 import static de.rwth_aachen.phyphox.ExperimentList.model.Const.EXPERIMENT_PRESELECTED_BLUETOOTH_ADDRESS;

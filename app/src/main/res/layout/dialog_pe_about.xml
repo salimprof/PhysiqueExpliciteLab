@@ -64,6 +64,7 @@
             android:layout_marginTop="12dp"
             android:text="@string/pe_about_description" />
 
+        <!-- Modification Notice & Non-affiliation (GPL v3 Section 5a + Point 5 & 7) -->
         <TextView
             style="@style/PELab.SectionHeader"
             android:layout_width="match_parent"
@@ -71,11 +72,13 @@
             android:text="@string/pe_about_customization_title" />
 
         <TextView
+            android:id="@+id/pe_about_mod_notice_tv"
             style="@style/PELab.Text.Caption"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/pe_about_customization" />
 
+        <!-- Original Authors & Copyrights (Point 1 & 2) -->
         <TextView
             style="@style/PELab.SectionHeader"
             android:layout_width="match_parent"
@@ -89,6 +92,44 @@
             android:text="@string/pe_about_original" />
 
         <TextView
+            style="@style/PELab.Text.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/pe_about_source_original" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/pe_about_repo_btn"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/pe_about_open_repo" />
+
+        <!-- Separate Section: Source code of this modified version (Point 3 & 4) -->
+        <TextView
+            style="@style/PELab.SectionHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pe_about_modified_source_title" />
+
+        <TextView
+            android:id="@+id/pe_about_modified_source_tv"
+            style="@style/PELab.Text.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/pe_about_modified_repo_btn"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/pe_about_open_modified_repo"
+            android:visibility="gone" />
+
+        <!-- License & Full GPL v3 Text (Point 1 & 6) -->
+        <TextView
             style="@style/PELab.SectionHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -100,32 +141,13 @@
             android:layout_height="wrap_content"
             android:text="@string/pe_about_license" />
 
-        <TextView
-            style="@style/PELab.SectionHeader"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/pe_about_source_title" />
-
-        <TextView
-            style="@style/PELab.Text.Caption"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/pe_about_source_original" />
-
-        <TextView
-            style="@style/PELab.Text.Caption"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:text="@string/pe_about_source_ours" />
-
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/pe_about_repo_btn"
+            android:id="@+id/pe_about_full_gpl_btn"
             style="@style/Widget.Material3.Button.OutlinedButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:text="@string/pe_about_open_repo" />
+            android:layout_marginTop="10dp"
+            android:text="@string/pe_about_full_license" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/pe_about_engine_credits_btn"
