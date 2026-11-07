@@ -134,7 +134,7 @@ public class PELabVerificationTest {
         assertTrue("PRIVACY_POLICY.md must exist", privacy.exists());
         String privacyText = new String(Files.readAllBytes(privacy.toPath()), StandardCharsets.UTF_8);
         assertTrue(privacyText.contains("com.salimprof.physiqueexplicitelab"));
-        assertTrue(privacyText.contains("1020105"));
+        assertTrue(privacyText.contains("1020106"));
 
         // 4. Translatable string resources for "9 étapes" (FR, EN, AR) and no hardcoded "9 étapes" in PEPedagogyManager
         File pedagogySrc = resolveAppFile("src/main/java/de/rwth_aachen/phyphox/pelab/PEPedagogyManager.java");

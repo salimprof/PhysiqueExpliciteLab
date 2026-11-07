@@ -3,9 +3,9 @@
 - **Dépôt GitHub audité** : https://github.com/salimprof/PhysiqueExpliciteLab
 - **Branche de travail dédiée** : `fix/stabilize-tests-and-release` *(branche `main` conservée intacte en attente de validation)*
 - **Identifiant Android (`applicationId`)** : `com.salimprof.physiqueexplicitelab`
-- **Version commerciale de l'application** : `versionName "1.0.0-pe (base phyphox 1.2.1)"` • `versionCode 1020105`
+- **Version commerciale de l'application** : `versionName "1.0.0-pe (base phyphox 1.2.1)"` • `versionCode 1020106`
 - **Version du moteur et du format `.phyphox` supporté** : `PhyphoxFile.phyphoxFileVersion = "1.20"` (base `phyphox-android` v1.2.1, commit `45fa55a0`)
-- **SDK et chaîne d'outils** : `minSdkVersion 24` • `targetSdkVersion 35` (Android 15) • `compileSdk 37` • JDK 21 • Gradle 9.6.0 • AGP 9.2.1 • NDK `28.0.13004108` • CMake `3.22.1`
+- **SDK et chaîne d'outils** : `minSdkVersion 24` • `targetSdkVersion 36` (Android 16) • `compileSdk 37` • JDK 21 • Gradle 9.6.0 • AGP 9.2.1 • NDK `28.0.13004108` • CMake `3.22.1`
 - **Révision de référence `phyphox-docs` épinglée** : `5d26b823e3738bf5a006cf677e42d461f53a804a`
 - **Date de mise à jour de l'audit** : `2026-11-07`
 

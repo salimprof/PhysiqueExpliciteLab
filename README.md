@@ -30,8 +30,8 @@ Elle est conçue par **Salim El Mokhtar (Salimprof)** — enseignant de physique
 | **Nom de l'application** | `Physique Explicite Lab` |
 | **Signature d'édition** | `Edited by Salimprof` (Salim El Mokhtar) |
 | **Identifiant Android (`applicationId`)** | `com.salimprof.physiqueexplicitelab` |
-| **Version (`versionName` / `versionCode`)** | `1.0.0-pe (base phyphox 1.2.1)` / `1020105` |
-| **SDK Android** | `minSdkVersion 24` (Android 7.0+) • `targetSdkVersion 35` (Android 15) • `compileSdk 37` |
+| **Version (`versionName` / `versionCode`)** | `1.0.0-pe (base phyphox 1.2.1)` / `1020106` |
+| **SDK Android** | `minSdkVersion 24` (Android 7.0+) • `targetSdkVersion 36` (Android 16) • `compileSdk 37` |
 | **Licence** | [GNU General Public License v3.0 (GNU GPL v3)](LICENSE) (embarquée hors ligne dans [`app/src/main/assets/gpl-3.0.txt`](app/src/main/assets/gpl-3.0.txt)) |
 | **Dépôt du code source modifié** | https://github.com/salimprof/PhysiqueExpliciteLab |
 | **Dépôt amont original (`phyphox`)** | https://github.com/phyphox/phyphox-android |

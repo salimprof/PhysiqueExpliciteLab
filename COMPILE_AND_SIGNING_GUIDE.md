@@ -10,8 +10,8 @@
 - **Responsable de la personnalisation** : Salim El Mokhtar (`Salimprof`)
 - **Identifiant Android (`applicationId`)** : `com.salimprof.physiqueexplicitelab`
   *(Distinct de `de.rwth_aachen.phyphox` : les deux applications peuvent être installées simultanément sur le même smartphone sans conflit de package ni de `FileProvider`).*
-- **Version** : `versionName "1.0.0-pe (base phyphox 1.2.1)"` (`versionCode 1020105`)
-- **SDK cible / compilation** : `compileSdk 37`, `targetSdkVersion 35`, `minSdkVersion 24`
+- **Version** : `versionName "1.0.0-pe (base phyphox 1.2.1)"` (`versionCode 1020106`)
+- **SDK cible / compilation** : `compileSdk 37`, `targetSdkVersion 36`, `minSdkVersion 24`
 - **Licence** : GNU General Public License v3.0 (GPL v3), dérivé du projet open source [phyphox-android](https://github.com/phyphox/phyphox-android).
 
 ---
