@@ -4,7 +4,7 @@ android {
 
     defaultConfig {
         applicationId "com.salimprof.physiqueexplicitelab"
-        minSdkVersion 21
+        minSdkVersion 24
         targetSdkVersion 35
         compileSdk 37
 

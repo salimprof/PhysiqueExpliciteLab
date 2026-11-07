@@ -2,7 +2,7 @@
 ## Physique Explicite Lab (« Edited by Salimprof »)
 - **Nom de l'application** : **Physique Explicite Lab** (signature : **Edited by Salimprof**)
 - **Identifiant Android (`applicationId`)** : `com.salimprof.physiqueexplicitelab`
-- **Version auditée** : `1.0.0-pe (base phyphox 1.2.1)` (`versionCode` : `1020105`, `minSdkVersion 21`, `targetSdkVersion 35`)
+- **Version auditée** : `1.0.0-pe (base phyphox 1.2.1)` (`versionCode` : `1020105`, `minSdkVersion 24`, `targetSdkVersion 35`)
 - **Éditeur / Responsable de la personnalisation** : Salim El Mokhtar (**Salimprof**) — Contact : `salimprof@gmail.com`
 - **Dépôt public du code source (GNU GPL v3)** : https://github.com/salimprof/PhysiqueExpliciteLab
 - **Dernière mise à jour** : 3 novembre 2026 (`2026-11-03`)
