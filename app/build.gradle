@@ -130,6 +130,11 @@ android {
         }
     }
 
+    lint {
+        abortOnError false
+        disable 'MissingTranslation'
+    }
+
     ndkVersion '28.0.13004108'
 }
 

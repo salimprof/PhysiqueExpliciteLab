@@ -58,6 +58,7 @@
     <string name="pe_lab_title">J\'expérimente</string>
     <string name="pe_lab_intro">Activités pédagogiques guidées en 9 étapes pour le collège marocain (1AC, 2AC, 3AC), utilisant les capteurs réels de votre smartphone.</string>
     <string name="pe_lab_levels_badge">Collège : 1AC • 2AC • 3AC</string>
+    <string name="pe_lab_steps_badge">9 étapes</string>
     <string name="pe_lab_start_activity">Commencer l\'activité</string>
     <string name="pe_lab_open_sensor">Lancer la mesure réelle</string>
     <string name="pe_lab_safety_title">Avertissement de sécurité</string>

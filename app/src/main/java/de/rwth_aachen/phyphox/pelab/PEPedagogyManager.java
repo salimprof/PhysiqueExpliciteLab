@@ -41,6 +41,10 @@ import java.util.Arrays;
 import java.util.List;
 
 import de.rwth_aachen.phyphox.Experiment;
+import de.rwth_aachen.phyphox.ExperimentList.datasource.AssetExperimentLoader;
+import de.rwth_aachen.phyphox.ExperimentList.model.ExperimentListEnvironment;
+import de.rwth_aachen.phyphox.ExperimentList.model.ExperimentLoadInfoData;
+import de.rwth_aachen.phyphox.ExperimentList.model.ExperimentShortInfo;
 import de.rwth_aachen.phyphox.R;
 
 /**
@@ -259,7 +263,7 @@ public final class PEPedagogyManager {
             icon.setImageResource(act.iconRes);
             tvTitle.setText(act.titleRes);
             tvDesc.setText(act.metaRes);
-            tvBadge.setText("9 étapes");
+            tvBadge.setText(R.string.pe_lab_steps_badge);
 
             card.setOnClickListener(v -> showActivityDialog(activity, act));
             container.addView(card);
@@ -484,10 +488,26 @@ public final class PEPedagogyManager {
     }
 
     public static void launchRealAssetExperiment(Activity activity, String assetXml) {
+        int unavailableSensor = -1;
+        try {
+            ExperimentListEnvironment env = new ExperimentListEnvironment(activity);
+            try (java.io.InputStream in = env.assetManager.open("experiments/" + assetXml)) {
+                ExperimentLoadInfoData data = new ExperimentLoadInfoData(in, assetXml, null, true);
+                ExperimentShortInfo info = AssetExperimentLoader.loadExperimentShortInfo(data, env);
+                if (info != null && info.unavailableSensor > 0) {
+                    PEDialogs.showSensorUnavailableDialog(activity, info.unavailableSensor);
+                    return;
+                }
+                if (info != null) {
+                    unavailableSensor = info.unavailableSensor;
+                }
+            }
+        } catch (Exception ignored) {
+        }
         Intent intent = new Intent(activity, Experiment.class);
         intent.putExtra(EXPERIMENT_XML, assetXml);
         intent.putExtra(EXPERIMENT_ISASSET, true);
-        intent.putExtra(EXPERIMENT_UNAVAILABLESENSOR, -1);
+        intent.putExtra(EXPERIMENT_UNAVAILABLESENSOR, unavailableSensor);
         intent.setAction(Intent.ACTION_VIEW);
         activity.startActivity(intent);
     }

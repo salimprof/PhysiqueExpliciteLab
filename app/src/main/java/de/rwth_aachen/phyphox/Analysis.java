@@ -1,3 +1,13 @@
+/*
+ * Original file from phyphox (https://github.com/phyphox/phyphox-android)
+ * Copyright (C) RWTH Aachen University / Dr. Sebastian Staacks and contributors.
+ *
+ * Modified by Salimprof (Salim El Mokhtar) on 2026-11-02 for "Physique Explicite Lab":
+ * - Preserved 1-sample (N = 1) identity DFT output in FFT / fftAM.
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms of
+ * the GNU General Public License version 3 as published by the Free Software Foundation.
+ */
 package de.rwth_aachen.phyphox;
 
 import android.content.Context;
@@ -95,6 +105,7 @@ public class Analysis {
 
         public void prepare(int n) {
             this.n = n;
+            this.np2 = Math.max(0, n);
             if (n < 2)
                 return;
 
@@ -1767,7 +1778,7 @@ public class Analysis {
                 int size = inputArraySizes.get(0);
                 if (hasIm)
                     size = Math.min(size, inputArraySizes.get(1));
-                if (size < 2)
+                if (size < 1)
                     return;
 
                 final float xy[] = new float[2 * size];
@@ -1794,7 +1805,7 @@ public class Analysis {
                 int size = inputArrays.get(0).length;
                 if (hasIm)
                     size = Math.min(size, inputArrays.get(1).length);
-                if (size < 2)
+                if (size < 1)
                     return;
 
                 if (fft.n != size) {

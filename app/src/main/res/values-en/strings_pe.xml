@@ -50,6 +50,7 @@
     <string name="pe_lab_title">Let\'s experiment</string>
     <string name="pe_lab_intro">Guided 9-step educational activities for middle school (1AC, 2AC, 3AC), using your smartphone\'s real sensors.</string>
     <string name="pe_lab_levels_badge">Middle school: 1AC • 2AC • 3AC</string>
+    <string name="pe_lab_steps_badge">9 steps</string>
     <string name="pe_lab_start_activity">Start activity</string>
     <string name="pe_lab_open_sensor">Launch real measurement</string>
     <string name="pe_lab_safety_title">Safety warning</string>

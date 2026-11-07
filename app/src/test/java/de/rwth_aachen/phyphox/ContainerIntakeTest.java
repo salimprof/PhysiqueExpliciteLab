@@ -186,7 +186,7 @@ public class ContainerIntakeTest {
         assertTrue("the bundled resource was not extracted",
                 new File(tempZip(), "res/pic.png").isFile());
 
-        assertEquals("with-resource.phyphox", opened.getData().getLastPathSegment());
+        assertEquals("with-resource.phyphox", new File(opened.getData().getPath()).getName());
 
         PhyphoxExperiment experiment = load(opened);
         assertTrue("the experiment did not load: " + experiment.message, experiment.loaded);
@@ -330,7 +330,7 @@ public class ContainerIntakeTest {
         Intent opened = Shadows.shadowOf(listActivity).getNextStartedActivity();
         assertNotNull("the rebuilt container did not open its experiment", opened);
         //The rebuilt entry is always called a.phyphox - the original name is not transmitted.
-        assertEquals("a.phyphox", opened.getData().getLastPathSegment());
+        assertEquals("a.phyphox", new File(opened.getData().getPath()).getName());
 
         PhyphoxExperiment experiment = load(opened);
         assertTrue("the transmitted experiment did not load: " + experiment.message,

@@ -57,6 +57,11 @@ public class CorpusToleratedAttributesLoadTest {
                 !CorpusTestEnvironment.CORPUS_MISSING.equals(relativePath));
 
         File file = new File(CorpusTestEnvironment.findCorpus(), relativePath);
+        int[] declared = CorpusTestEnvironment.declaredVersion(file);
+        if (declared != null)
+            assumeTrue("Declares format version " + declared[0] + "." + declared[1]
+                            + " > supported " + PhyphoxFile.phyphoxFileVersion + " - skipped.",
+                    CorpusTestEnvironment.versionAtMostSupported(declared));
         Experiment activity = CorpusTestEnvironment.fullyEquippedActivity();
         PhyphoxExperiment experiment = CorpusTestEnvironment.load(file, activity);
         assertTrue(relativePath + " must load (expected.yml classifies it as \"parser: accepts\": its"

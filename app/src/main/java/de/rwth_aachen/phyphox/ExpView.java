@@ -1,3 +1,14 @@
+/*
+ * Original file from phyphox (https://github.com/phyphox/phyphox-android)
+ * Copyright (C) RWTH Aachen University / Dr. Sebastian Staacks and contributors.
+ *
+ * Modified by Salimprof (Salim El Mokhtar) on 2026-11-02 for "Physique Explicite Lab":
+ * - Fixed RTL layout alignment (setPaddingRelative, TEXT_ALIGNMENT_VIEW_START/END) and
+ *   EditText horizontal scrolling in editElement under RTL.
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms of
+ * the GNU General Public License version 3 as published by the Free Software Foundation.
+ */
 package de.rwth_aachen.phyphox;
 
 import static android.view.View.GONE;
@@ -570,7 +581,8 @@ public class ExpView implements Serializable{
             labelView.setText(this.label);
             labelView.setGravity(Gravity.END | Gravity.CENTER_VERTICAL); //Align right to the center of the row
             labelView.setTextSize(TypedValue.COMPLEX_UNIT_PX, labelSize);
-            labelView.setPadding(0, 0, (int) labelSize / 2, 0);
+            labelView.setPaddingRelative(0, 0, (int) labelSize / 2, 0);
+            labelView.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_END);
             labelView.setTextColor(color.autoLightColor(res).intColor());
 
             //Create the value (and unit) as textView
@@ -581,7 +593,8 @@ public class ExpView implements Serializable{
                     0.5f)); //right half should be value+unit
             tv.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
             tv.setTextSize(TypedValue.COMPLEX_UNIT_PX, labelSize*(float)size); //Align left to the center of the row
-            tv.setPadding((int) labelSize / 2, 0, 0, 0);
+            tv.setPaddingRelative((int) labelSize / 2, 0, 0, 0);
+            tv.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_START);
             tv.setTypeface(null, Typeface.BOLD);
             tv.setTextColor(color.autoLightColor(res).intColor());
 
@@ -1046,7 +1059,8 @@ public class ExpView implements Serializable{
             labelView.setText(this.label);
             labelView.setGravity(Gravity.END | Gravity.CENTER_VERTICAL);
             labelView.setTextSize(TypedValue.COMPLEX_UNIT_PX, labelSize);
-            labelView.setPadding(0, 0, (int) labelSize / 2, 0);
+            labelView.setPaddingRelative(0, 0, (int) labelSize / 2, 0);
+            labelView.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_END);
 
             //Create a horizontal linear layout, which seperates the right half into the edit field
             //and a textView to show the unit next to the user input
@@ -1104,6 +1118,8 @@ public class ExpView implements Serializable{
 
 
             //Start with NaN
+            et.setHorizontallyScrolling(false);
+            et.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_START);
             et.setText("NaN");
 
             //The unit next to the edit box
@@ -1115,7 +1131,8 @@ public class ExpView implements Serializable{
             unitView.setText(this.unit);
             unitView.setGravity(Gravity.END | Gravity.CENTER_VERTICAL);
             unitView.setTextSize(TypedValue.COMPLEX_UNIT_PX, labelSize);
-            unitView.setPadding(0, 0, (int) labelSize / 2, 0);
+            unitView.setPaddingRelative(0, 0, (int) labelSize / 2, 0);
+            unitView.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_END);
             unitView.setTypeface(null, Typeface.BOLD);
 
             //Add edit box and unit to the horizontal linear layout that makes up the right half of the row
@@ -3118,7 +3135,8 @@ public class ExpView implements Serializable{
             labelView.setText(this.label);
             labelView.setGravity(Gravity.END | Gravity.CENTER_VERTICAL);
             labelView.setTextSize(TypedValue.COMPLEX_UNIT_PX, labelSize);
-            labelView.setPadding(0, 0, (int) labelSize / 2, 0);
+            labelView.setPaddingRelative(0, 0, (int) labelSize / 2, 0);
+            labelView.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_END);
 
             //Create a horizontal linear layout, which seperates the right half into the edit field
             //and a textView to show the unit next to the user input
@@ -3128,7 +3146,7 @@ public class ExpView implements Serializable{
                     ViewGroup.LayoutParams.WRAP_CONTENT,
                     0.5f);
             switchView.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
-            switchView.setPadding((int) labelSize / 2, 0, 0, 0);
+            switchView.setPaddingRelative((int) labelSize / 2, 0, 0, 0);
 
             //wrap switchMaterial into linearlayout as the gravity of the switch is not working as expected.
             LinearLayout switchViewRow = new LinearLayout(c);
@@ -3293,7 +3311,8 @@ public class ExpView implements Serializable{
             labelView.setText(this.label);
             labelView.setGravity(Gravity.END | Gravity.CENTER_VERTICAL); //Align right to the center of the row
             labelView.setTextSize(TypedValue.COMPLEX_UNIT_PX, labelSize);
-            labelView.setPadding(0, 0, (int) labelSize / 2, 0);
+            labelView.setPaddingRelative(0, 0, (int) labelSize / 2, 0);
+            labelView.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_END);
 
             //Material Design 3 uses TextInputLayout and AutoCompleteTextView for dropdowns instead of Spinner
             TextInputLayout textInputLayout = new TextInputLayout(
@@ -3306,7 +3325,7 @@ public class ExpView implements Serializable{
                     0.5f)); //right half should be value+unit
             textInputLayout.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
 
-            textInputLayout.setPadding((int) labelSize / 2, 0, 0, 0);
+            textInputLayout.setPaddingRelative((int) labelSize / 2, 0, 0, 0);
 
             autoCompleteTextView = new MaterialAutoCompleteTextView(c);
             autoCompleteTextView.setLayoutParams(new LinearLayout.LayoutParams(
@@ -3547,14 +3566,16 @@ public class ExpView implements Serializable{
             labelView.setText(this.label);
             labelView.setGravity(Gravity.END | Gravity.CENTER_VERTICAL); //Align right to the center of the row
             labelView.setTextSize(TypedValue.COMPLEX_UNIT_PX, labelSize);
-            labelView.setPadding(0, 0, (int) labelSize / 2, 0);
+            labelView.setPaddingRelative(0, 0, (int) labelSize / 2, 0);
+            labelView.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_END);
             labelView.setTextColor(color.autoLightColor(res).intColor());
 
             valueTv = new TextView(c);
             valueTv.setLayoutParams(getTableRowParams(0.5f)); //right half should be value+unit
             valueTv.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
             valueTv.setTextSize(TypedValue.COMPLEX_UNIT_PX, labelSize); //Align left to the center of the row
-            valueTv.setPadding((int) labelSize / 2, 0, 0, 0);
+            valueTv.setPaddingRelative((int) labelSize / 2, 0, 0, 0);
+            valueTv.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_START);
             valueTv.setTypeface(null, Typeface.BOLD);
             valueTv.setTextColor(color.autoLightColor(res).intColor());
             valueTv.setText(numberFormatter(defaultValue));
@@ -3562,6 +3583,7 @@ public class ExpView implements Serializable{
             TextView minValueLabel = new TextView(c);
             minValueLabel.setLayoutParams(getTableRowParams(0.1f));
             minValueLabel.setGravity(Gravity.END | Gravity.CENTER_VERTICAL);
+            minValueLabel.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_END);
             minValueLabel.setTextSize(TypedValue.COMPLEX_UNIT_PX, labelSize / 1.5f);
             minValueLabel.setTextColor(color.autoLightColor(res).intColor());
             minValueLabel.setText(numberFormatter(minValue));
@@ -3569,6 +3591,7 @@ public class ExpView implements Serializable{
             TextView maxValueLabel = new TextView(c);
             maxValueLabel.setLayoutParams(getTableRowParams(0.1f));
             maxValueLabel.setGravity(Gravity.START | Gravity.CENTER_VERTICAL);
+            maxValueLabel.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_START);
             maxValueLabel.setTextSize(TypedValue.COMPLEX_UNIT_PX, labelSize / 1.5f);
             maxValueLabel.setTextColor(color.autoLightColor(res).intColor());
             maxValueLabel.setText(numberFormatter(maxValue));

@@ -483,6 +483,10 @@ public class PEMainActivity extends AppCompatActivity {
             PEDialogs.openUrlSafely(this, exp.isLink);
             return;
         }
+        if (exp.unavailableSensor > 0) {
+            PEDialogs.showSensorUnavailableDialog(this, exp.unavailableSensor);
+            return;
+        }
         Intent intent = new Intent(this, Experiment.class);
         intent.putExtra(EXPERIMENT_XML, exp.xmlFile);
         intent.putExtra(EXPERIMENT_ISTEMP, exp.isTemp);

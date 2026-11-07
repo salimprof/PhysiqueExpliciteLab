@@ -288,6 +288,18 @@ public final class PEDialogs {
         builder.show();
     }
 
+    public static void showSensorUnavailableDialog(final Activity activity, int unavailableSensorRes) {
+        String sensorName = unavailableSensorRes > 0 ? activity.getString(unavailableSensorRes) : "";
+        String message = activity.getString(R.string.sensorNotAvailableWarningText1)
+                + " " + sensorName + " "
+                + activity.getString(R.string.sensorNotAvailableWarningText2);
+        new MaterialAlertDialogBuilder(activity)
+                .setTitle(R.string.sensorNotAvailableWarningTitle)
+                .setMessage(message)
+                .setPositiveButton(R.string.ok, null)
+                .show();
+    }
+
     public static void openUrlSafely(Activity activity, String url) {
         try {
             Uri uri = Uri.parse(url);

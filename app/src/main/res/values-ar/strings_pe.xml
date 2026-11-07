@@ -50,6 +50,7 @@
     <string name="pe_lab_title">أجرّب</string>
     <string name="pe_lab_intro">أنشطة تربوية موجَّهة في 9 مراحل للسلك الإعدادي بالمغرب (1AC و2AC و3AC)، باستعمال المستشعرات الحقيقية لهاتفك الذكي.</string>
     <string name="pe_lab_levels_badge">الإعدادي: 1AC • 2AC • 3AC</string>
+    <string name="pe_lab_steps_badge">9 مراحل</string>
     <string name="pe_lab_start_activity">بدء النشاط</string>
     <string name="pe_lab_open_sensor">تشغيل القياس الحقيقي</string>
     <string name="pe_lab_safety_title">تنبيه السلامة</string>

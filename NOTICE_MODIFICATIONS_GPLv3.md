@@ -43,6 +43,8 @@
    - Added public accessors to allow `PEMainActivity` to list and launch bundled asset experiments and saved states without altering the sensor/measurement engine.
 6. [`app/src/main/res/values*/strings.xml`](app/src/main/res/values/strings.xml), [`app/src/main/res/values/colors.xml`](app/src/main/res/values/colors.xml), [`app/src/main/res/values/styles.xml`](app/src/main/res/values/styles.xml), [`app/src/main/res/xml/locales_config.xml`](app/src/main/res/xml/locales_config.xml):
    - Updated `app_name` to `Physique Explicite Lab`, added custom palette colors and splash screen style, and enabled Arabic (`ar`) locale support.
+7. [`app/src/main/java/de/rwth_aachen/phyphox/Analysis.java`](app/src/main/java/de/rwth_aachen/phyphox/Analysis.java) & [`app/src/main/java/de/rwth_aachen/phyphox/ExpView.java`](app/src/main/java/de/rwth_aachen/phyphox/ExpView.java):
+   - Preserved 1-sample (`N = 1`) identity DFT output in `FFT` / `fftAM`, and fixed RTL layout alignment (`setPaddingRelative`, `TEXT_ALIGNMENT_VIEW_START/END`, `setHorizontallyScrolling(false)`) for Arabic RTL rendering.
 
 ### B. New Files Added for Physique Explicite Lab
 - **Java classes (`app/src/main/java/de/rwth_aachen/phyphox/pelab/`)**:

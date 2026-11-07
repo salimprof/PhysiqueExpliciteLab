@@ -135,5 +135,22 @@ public class PELabVerificationTest {
         String privacyText = new String(Files.readAllBytes(privacy.toPath()), StandardCharsets.UTF_8);
         assertTrue(privacyText.contains("com.salimprof.physiqueexplicitelab"));
         assertTrue(privacyText.contains("1020105"));
+
+        // 4. Translatable string resources for "9 étapes" (FR, EN, AR) and no hardcoded "9 étapes" in PEPedagogyManager
+        File pedagogySrc = resolveAppFile("src/main/java/de/rwth_aachen/phyphox/pelab/PEPedagogyManager.java");
+        String pedagogyCode = new String(Files.readAllBytes(pedagogySrc.toPath()), StandardCharsets.UTF_8);
+        assertFalse("PEPedagogyManager.java must not hardcode \"9 étapes\"", pedagogyCode.contains("\"9 étapes\""));
+        assertTrue("PEPedagogyManager.java must reference R.string.pe_lab_steps_badge", pedagogyCode.contains("R.string.pe_lab_steps_badge"));
+
+        for (String resPath : new String[]{
+                "src/main/res/values/strings_pe.xml",
+                "src/main/res/values-en/strings_pe.xml",
+                "src/main/res/values-ar/strings_pe.xml"
+        }) {
+            File resFile = resolveAppFile(resPath);
+            assertTrue("Resource file must exist: " + resPath, resFile.exists());
+            String xml = new String(Files.readAllBytes(resFile.toPath()), StandardCharsets.UTF_8);
+            assertTrue(resPath + " must define pe_lab_steps_badge", xml.contains("name=\"pe_lab_steps_badge\""));
+        }
     }
 }
